@@ -1,4 +1,4 @@
-/** IMPORTS **/
+/** Imports **/
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 body {
@@ -16,16 +16,14 @@ body {
 h1 {
     color: #770d15;
 }
-
 /** Logo **/
-
 #logo {
     font-family: "Gloria Hallelujah", Helvetica, sans-serif;
     float: left;
     font-size: 140%;
     margin-left: 35px;
 }
-
 #logo a {
     text-decoration: none;
 }
+/** Menu **/
