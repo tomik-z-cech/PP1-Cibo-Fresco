@@ -1,8 +1,8 @@
 /** Imports **/
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
 
 body {
-    background-color: #f9eec9;
+    background-color: #f5eed8;
 }
 
 /** General **/
@@ -11,34 +11,34 @@ body {
     padding: 0;
     border: none;
 }
-h1 {
-    color: #770d15;
-}
 .active-page {
-    border-bottom: 1px solid #770d15;
+    border-bottom: 1px solid #58483a;
   }
 /** Logo **/
-.logo {
-    font-family: "Gloria Hallelujah", Helvetica, sans-serif;
+#logo {
     float: left;
-    font-size: 140%;
+    font-size: 280%;
     margin-left: 35px;
 }
-#logo a {
-    text-decoration: none;
-}
 /** Menu **/
+#menu {
+    font-size: 130%;
+}
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 10px;
+    margin-right: 35px;
+    text-transform: uppercase;
 }
 #menu a {
     color: inherit;
     text-decoration: none;
-    font-family: "Gloria Hallelujah", Helvetica, sans-serif;
-    color: #770d15;
 }
 #menu a:hover {
-    background-color: #af672d;
+    border-bottom: 1px solid #58483a;
+}
+#logo, #menu {
+    line-height: 100px;
+    color: #58483a;
+    font-family: "Vina Sans", Helvetica, sans-serif;
 }
