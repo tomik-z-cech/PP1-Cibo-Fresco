@@ -65,7 +65,7 @@ footer {
     color: #58483a;
     font-family: "Vina Sans", Helvetica, sans-serif;
     font-size: 130%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-transform: uppercase;    
 }
 
@@ -97,6 +97,6 @@ footer {
     text-decoration: none;
 }
 
-#footer-details a:hover {
+#footer-details a:hover, #socials a:hover {
     border-bottom: 1px solid #58483a;
 }
