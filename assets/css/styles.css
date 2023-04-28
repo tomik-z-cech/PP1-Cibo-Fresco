@@ -59,7 +59,13 @@ body {
 
 footer {
     position: absolute; 
-    bottom: 0px;
- 
- 
+    bottom: 0px; 
+}
+
+#socials{
+    float: right;
+}
+
+#footer-details {
+    float: left;
 }
