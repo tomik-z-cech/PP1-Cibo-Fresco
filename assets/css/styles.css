@@ -13,10 +13,11 @@ body {
 }
 
 .header-footer {
-    background-color: rgba(228, 180, 85, 0.4);
+    background-color: rgba(228, 180, 85, 0.85);
     width: 100%;
     height: 100px;
     position: fixed;
+    z-index: 1;
 }
 
 /** Header - Logo **/
@@ -107,8 +108,13 @@ footer {
 
 /** Home - Content **/
 #home-content {
-    margin: 0 auto;
     width: 95%;
-    height: 100%;
-    background-image: url(../images/icon.png);
+    background-color: #58483a;
+    background-image: url(../images/home-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 2.5%;
+    top: 105px;
+    bottom: 105px;
 }
