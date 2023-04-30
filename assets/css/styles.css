@@ -118,3 +118,15 @@ footer {
     top: 105px;
     bottom: 105px;
 }
+
+#home-content-text {
+    color:#f5eed8;
+    height: 400px;
+    width: 65%;
+    overflow: hidden;
+    background-color: rgba(49, 54, 57, 0.95);
+    font-family: "Vina Sans", Helvetica, sans-serif;
+    position: absolute;
+    right: 3%;
+    bottom: 10%;
+}
