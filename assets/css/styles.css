@@ -1,5 +1,6 @@
 /** Imports **/
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 body {
     background-color: #f5eed8;
@@ -129,4 +130,13 @@ footer {
     position: absolute;
     right: 3%;
     bottom: 10%;
+    font-size: 130%;
+}
+
+#home-content-text p {
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-family: "Amatic SC", Helvetica, sans-serif;
+    margin-left: 2%;
+    font-weight: 600;
 }
