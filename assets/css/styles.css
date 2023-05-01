@@ -21,7 +21,14 @@ body {
     z-index: 1;
 }
 
+hr {
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+}
+
 /** Header - Logo **/
+
 #logo {
     float: left;
     font-size: 280%;
