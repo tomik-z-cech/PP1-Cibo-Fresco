@@ -198,9 +198,32 @@ footer {
 }
 
 .drink-details {
-    margin-left: 30%;
+    padding-top: 5%;
+    padding-left: 50%;
     width: fill-content;
     height: 100%;
+}
+
+.drink-details h2 {
+    color: #313639;
+    font-family: "Vina Sans", Helvetica, sans-serif;
+    letter-spacing: 6px;
+    font-size: 250%;
+    text-transform: uppercase;
+}
+
+.drink-details ul {
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.drink-details li {
+    color: #58483a;
+    font-family: "Vina Sans", Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-size: 200%;
 }
 
 #red-wine {
