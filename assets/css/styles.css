@@ -40,6 +40,20 @@ body {
         transform: scale(1.2);
     }
 }
+/** Scrollbar **/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(228, 180, 85, 0.85)
+}
+::-webkit-scrollbar-thumb {
+    background: #58483a;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #af672d;
+}
+
 
 /** -------------------------------- HEADER -------------------------------- **/
 /** Header - Logo **/
