@@ -1,4 +1,4 @@
-/** Imports **/
+/** -------------------------------- IMPORTS -------------------------------- **/
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
@@ -6,7 +6,7 @@ body {
     background-color: #f5eed8;
 }
 
-/** General **/
+/** -------------------------------- GENERAL -------------------------------- **/
 * {
     margin: 0;
     padding: 0;
@@ -38,38 +38,36 @@ hr {
     margin-right: 25px;
 }
 
+/** -------------------------------- HEADER -------------------------------- **/
 /** Header - Logo **/
-
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 35px;
 }
+
 /** Header - Menu **/
 .active-page {
     border-bottom: 1px solid #58483a;
   }
 
+/** Menu items - links **/  
 #menu {
     font-size: 130%;
 }
-
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 35px;
     text-transform: uppercase;
 }
-
 #menu a {
     color: inherit;
     text-decoration: none;
 }
-
 #menu a:hover {
     border-bottom: 1px solid #58483a;
 }
-
 #logo, #menu {
     line-height: 100px;
     color: #58483a;
@@ -77,8 +75,8 @@ hr {
     letter-spacing: 2px;
 }
 
-/** Footer **/
-
+/** -------------------------------- FOOTER -------------------------------- **/
+/** Footer - size and position **/
 footer {
     bottom: 0px;
     line-height: 100px;
@@ -90,7 +88,6 @@ footer {
 }
 
 /** Footer - Socials **/
-
 #socials{
     float: right;
     width: 30%;
@@ -98,35 +95,29 @@ footer {
     padding-right: 5%;
     font-size: 160%;
 }
-
 #socials a{
     color: inherit;
     text-decoration: none;
 }
-
 #socials > li {
     display: inline;
     padding-left: 25%;
 }
-
 #footer-details {
     float: left;
     width: 60%;
 }
 
 /** Footer - Details **/
-
 #footer-details a {
     color: inherit;
     text-decoration: none;
 }
-
 #footer-details a:hover, #socials a:hover {
     border-bottom: 1px solid #58483a;
 }
-
-/** Home - Content **/
-
+/** -------------------------------- HOME PAGE -------------------------------- **/
+/** Outer container - home **/
 #home-content-outer {
     background-color: #58483a;
     width: 95%;
@@ -136,7 +127,6 @@ footer {
     bottom: 105px;
     overflow: hidden;
 }
-
 #home-content {
     width: 100%;
     height: 100%;
@@ -148,6 +138,7 @@ footer {
     animation-fill-mode: forwards;    
 }
 
+/** Inner container - home **/
 #home-content-text {
     color:#f5eed8;
     height: auto;
@@ -158,7 +149,6 @@ footer {
     overflow: hidden;
     background-color: rgba(49, 54, 57, 0.95);
 }
-
 #home-content-text h2 {
     font-size: 300%;
     font-family: "Amatic SC", Helvetica, sans-serif;
@@ -166,7 +156,6 @@ footer {
 }
 
 /** Home screen - animation **/
-
 @keyframes home-content-zoom {
     from {
         transform: scale(1);
@@ -176,8 +165,8 @@ footer {
     }
 }
 
-/** Drinks Menu **/
-
+/** -------------------------------- DRINKS MENU -------------------------------- **/
+/** Outer container - drinks **/ 
 #drinks-content-outer {
     background-color: #58483a;
     width: 95%;
@@ -189,6 +178,7 @@ footer {
     height: auto;
 }
 
+/** Inner container - drinks category **/
 .drink-selection {
     position: relative;
     top: 105px;
@@ -196,11 +186,9 @@ footer {
     height: 370px;
     background-color: rgba(49, 54, 57, 0.95);
     margin-bottom: 25px;
-    color:#f5eed8;
-    font-family: "Amatic SC", Helvetica, sans-serif;
-    letter-spacing: 4px;
 }
 
+/** Outer Round container - drink category image **/
 .drink-heading {
     position: absolute;
     width: 300px;
@@ -212,6 +200,15 @@ footer {
     background-color: rgba(228, 180, 85, 0.85);
 }
 
+/** Inner Round container - drink category image **/
+.menu-item-image {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/** Container - drink heading and list **/
 .drink-details {
     padding-top: 5%;
     padding-left: 45%;
@@ -219,6 +216,7 @@ footer {
     height: 100%;
 }
 
+/** Heading - drink category **/
 .drink-details h2 {
     font-family: "Vina Sans", Helvetica, sans-serif;
     letter-spacing: 6px;
@@ -226,12 +224,14 @@ footer {
     text-transform: uppercase;
 }
 
+/** Unordered List - Drinks category **/
 .drink-details ul {
     margin-top: 30px;
     margin-left: 50px;
     list-style-type: none;
 }
 
+/** List item - Drinks category **/
 .drink-details li {
     font-family: "Vina Sans", Helvetica, sans-serif;
     letter-spacing: 2px;
@@ -239,47 +239,24 @@ footer {
     font-size: 200%;
 }
 
+/** Drinks category - images and background colors **/
 #red-wine {
-    background-image: url(../images/red-wine.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    background-color: #800000;
-    border-radius: 50%;
+    background-image: url(../images/red-wine.jpg);    
+    background-color: #800000;    
 }
-
 #white-wine {
     background-image: url(../images/white-wine.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
     background-color: #eeedc4;
-    border-radius: 50%;   
 }
-
 #beer {
     background-image: url(../images/beer.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
     background-color: #ff9001;
-    border-radius: 50%;
 }
-
 #cocktail {
     background-image: url(../images/cocktail.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
     background-color: #ffb9bd;
-    border-radius: 50%;
 }
-
 #non-alcoholic {
     background-image: url(../images/non-alcoholic.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
     background-color: #3eb489;
-    border-radius: 50%;
 }
