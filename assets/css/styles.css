@@ -179,7 +179,7 @@ footer {
     position: absolute;
     left: 2.5%;
     top: 105px;
-    background-image: url(../images/wineyard.jpg);
+    background-image: url(../images/drink-background.jpg);
     background-size: cover;
     padding-bottom: 100px;
     height: auto;
@@ -277,7 +277,7 @@ footer {
     position: absolute;
     left: 2.5%;
     top: 105px;
-    background-image: url(../images/wineyard.jpg);
+    background-image: url(../images/food-background.jpg);
     background-size: cover;
     padding-bottom: 100px;
     height: auto;
@@ -347,15 +347,15 @@ footer {
 
 /** Drinks category - images and background colors **/
 #apetizer {
-    /** background-image: url(../images/red-wine.jpg);**/   
+    background-image: url(../images/apetizer.jpg);   
     background-color: #800000;    
 }
 #pizza {
-    /** background-image: url(../images/white-wine.jpg);**/
+    background-image: url(../images/pizza.jpg);
     background-color: #eeedc4;
 }
 #pasta {
-    /** background-image: url(../images/beer.jpg);**/
+    background-image: url(../images/pasta.jpg);
     background-color: #ff9001;
 }
 #dessert {
