@@ -218,7 +218,7 @@ footer {
 
 /** Container - drink heading and list **/
 .drink-details {
-    padding-left: 45%;
+    padding-left: 40%;
     width: fill-content;
     height: 100%;
     color:#f5eed8;
@@ -247,7 +247,7 @@ footer {
     font-size: 200%;
 }
 
-/** Prices floating right **/
+/** Drinks prices floating right **/
 .drink-price {
     float: right;
     margin-right: 15px;
@@ -340,7 +340,7 @@ footer {
 /** Unordered List - Food category **/
 .food-details ul {
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 75px;
     list-style-type: none;
 }
 
@@ -349,6 +349,12 @@ footer {
     letter-spacing: 2px;
     margin-top: 10px;
     font-size: 200%;
+}
+
+/** Food prices floating right **/
+.food-price {
+    float: right;
+    margin-right: 15px;
 }
 
 /** Drinks category - images and background colors **/
