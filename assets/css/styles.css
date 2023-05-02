@@ -359,10 +359,10 @@ footer {
     background-color: #ff9001;
 }
 #dessert {
-    /** background-image: url(../images/cocktail.jpg);**/
+    background-image: url(../images/dessert.jpg);
     background-color: #ffb9bd;
 }
 #gelato {
-    /** background-image: url(../images/non-alcoholic.jpg);**/
+    background-image: url(../images/gelato.jpg);
     background-color: #3eb489;
 }
