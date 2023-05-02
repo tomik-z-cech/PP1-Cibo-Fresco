@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
+/** -------------------------------- GENERAL -------------------------------- **/
 body {
     background-color: #f5eed8;
 }
 
-/** -------------------------------- GENERAL -------------------------------- **/
 * {
     margin: 0;
     padding: 0;
@@ -21,13 +21,6 @@ body {
     z-index: 1;
 }
 
-hr {
-    padding-top: 50px;
-    width: 100%;
-    height: 280px;
-}
-
-
 .float-left {
     float: left;
     margin-left: 25px;
@@ -36,6 +29,16 @@ hr {
 .float-right {
     float:right;
     margin-right: 25px;
+}
+
+/** Content - animation **/
+@keyframes content-zoom {
+    from {
+        transform: scale(1);
+        }
+    to {
+        transform: scale(1.2);
+    }
 }
 
 /** -------------------------------- HEADER -------------------------------- **/
@@ -133,7 +136,7 @@ footer {
     background: url(../images/home-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation-name: home-content-zoom;
+    animation-name: content-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;    
 }
@@ -155,16 +158,6 @@ footer {
     margin: 30px;
 }
 
-/** Home screen - animation **/
-@keyframes home-content-zoom {
-    from {
-        transform: scale(1);
-        }
-    to {
-        transform: scale(1.2);
-    }
-}
-
 /** -------------------------------- DRINKS MENU -------------------------------- **/
 /** Outer container - drinks **/ 
 #drinks-content-outer {
@@ -175,14 +168,16 @@ footer {
     top: 105px;
     background-image: url(../images/wineyard.jpg);
     background-size: cover;
+    padding-bottom: 100px;
     height: auto;
+    border-bottom: 110px solid #f5eed8;
 }
 
 /** Inner container - drinks category **/
 .drink-selection {
     position: relative;
     top: 105px;
-    width: 70vw;
+    width: 50vw;
     height: 370px;
     background-color: rgba(49, 54, 57, 0.95);
     margin-bottom: 25px;
@@ -210,30 +205,30 @@ footer {
 
 /** Container - drink heading and list **/
 .drink-details {
-    padding-top: 5%;
     padding-left: 45%;
     width: fill-content;
     height: 100%;
+    color:#f5eed8;
+    font-family: "Amatic SC", Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 /** Heading - drink category **/
 .drink-details h2 {
-    font-family: "Vina Sans", Helvetica, sans-serif;
-    letter-spacing: 6px;
-    font-size: 250%;
-    text-transform: uppercase;
+    font-size: 300%;
+    margin: 30px;
+
 }
 
 /** Unordered List - Drinks category **/
 .drink-details ul {
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 100px;
     list-style-type: none;
 }
 
 /** List item - Drinks category **/
 .drink-details li {
-    font-family: "Vina Sans", Helvetica, sans-serif;
     letter-spacing: 2px;
     margin-top: 10px;
     font-size: 200%;
