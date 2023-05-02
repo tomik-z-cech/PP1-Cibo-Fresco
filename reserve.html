@@ -41,10 +41,18 @@
             </h2>
             <form action="succes.html">
                 <fieldset>
-                    <legend>When are we goign to see you ?</legend>
-                    <label for="date">Date: </label>
+                    <legend>
+                        When are we going to see you ?
+                    </legend>
+                    <label for="date">
+                        <i class="fa-regular fa-calendar-days"></i>
+                        Date: 
+                    </label>
                     <input type="date" id="date" name="date"/>
-                    <label for="time">Time: </label>
+                    <label for="time">
+                        <i class="fa-solid fa-clock"></i>
+                        Time: 
+                    </label>
                     <select id="time" name="time"/>
                         <option value="16:00">16:00</option>
                         <option value="16:30">16:30</option>
@@ -60,8 +68,11 @@
                         <option value="21:30">21:30</option>
                         <option value="22:00">22:00</option>
                     </select>
-                    <label for="number">How many guests:</label>
-                    <input type="number" id="number" name="number"/>
+                    <label for="number-guests">
+                        <i class="fa-sharp fa-solid fa-person"></i>
+                        How many guests:
+                    </label>
+                    <input type="number-guests" id="number-guests" name="number-guests"/>
                 </fieldset>
                 <fieldset>
                     <legend>Your details ?</legend>
@@ -81,7 +92,7 @@
                     <label for="perroni">Perroni beer</label>
                     <input type="radio" id="perroni" name="welcome-drink" value="perroni">
                     <label for="apple-juice">Aple juice</label>
-                    <input type="radio" id="apple-juice" name="welcome-drink" value="apple-juice">
+                    <input type="radio" id="apple-juice" name="welcome-drink" value="apple-juice" checked>
                 </fieldset>
                 <fieldset>
                     <legend>Any special requests ?</legend>

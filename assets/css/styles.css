@@ -404,17 +404,21 @@ footer {
 /** Inner container -  **/
 #reserve-content-text {
     color:#f5eed8;
-    height: auto;
-    width: 65%;
+    height: 90%;
+    width: 90%;
     position: absolute;
-    right: 30%;
-    left: 30%;
-    top: 10%;
-    bottom: 10%;    
-    overflow: hidden;
+    top: 10px;
+    bottom: 0px;
+    left: 10px;
+    right: 10px;
     background-color: rgba(49, 54, 57, 0.95);
 }
 #reserve-content-text h2 {
     font-size: 300%;
     font-family: "Amatic SC", Helvetica, sans-serif;
+}
+
+fieldset {
+    height: fill-content;
+    background-color: red;
 }
