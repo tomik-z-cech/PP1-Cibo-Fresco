@@ -5,6 +5,7 @@
 /** -------------------------------- GENERAL -------------------------------- **/
 body {
     background-color: #f5eed8;
+    font-family: "Amatic SC", Helvetica, sans-serif;
 }
 
 * {
@@ -167,7 +168,6 @@ footer {
 }
 #home-content-text h2 {
     font-size: 300%;
-    font-family: "Amatic SC", Helvetica, sans-serif;
     margin: 30px;
 }
 
@@ -222,7 +222,6 @@ footer {
     width: fill-content;
     height: 100%;
     color:#f5eed8;
-    font-family: "Amatic SC", Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
@@ -326,7 +325,6 @@ footer {
     width: fill-content;
     height: 100%;
     color:#f5eed8;
-    font-family: "Amatic SC", Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
@@ -401,7 +399,7 @@ footer {
     animation-fill-mode: forwards;    
 }
 
-/** Inner container -  **/
+/** Inner container - Reservations **/
 #reserve-content-text {
     color:#f5eed8;
     height: 50vh; 
@@ -411,9 +409,10 @@ footer {
     left: 1vw;
     background-color: rgba(49, 54, 57, 0.95);
 }
-#reserve-content-text h2 {
+
+/** Font of headings of reservation form - Reservations **/ 
+#reserve-content-text h2{
     font-size: 300%;
-    font-family: "Amatic SC", Helvetica, sans-serif;
 }
 
 fieldset {
