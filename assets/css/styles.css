@@ -466,3 +466,21 @@ footer {
 fieldset {
     margin-top: 20px;
 }
+
+/** -------------------------------- MEDIA QUERIES -------------------------------- **/
+@media screen and (max-width: 950px) {
+    /** General hiding rule < 950px **/
+    .hide-less-950 {
+        display: none;    
+    }
+    /** Header styling < 950px **/
+    .header-footer {
+        height: 40px;
+    }
+    #logo {
+        line-height: inherit;
+        font-size: 100%;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+}
