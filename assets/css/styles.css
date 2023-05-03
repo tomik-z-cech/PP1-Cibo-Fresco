@@ -483,4 +483,21 @@ fieldset {
         margin-left: 8px;
         margin-top: 8px;
     }
+    /** Footer - size and position < 950px **/
+    footer {
+        bottom: 0px;
+        line-height: inherit;
+        font-size: 100%;
+    }
+    #footer-details {
+        text-align: center;        
+        font-size: 100%;
+        width: 60%;
+    }
+    #socials{
+        font-size: 120%;
+    }
+    #socials > li {
+        padding-left: 15%;
+    }
 }
