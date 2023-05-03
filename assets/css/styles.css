@@ -475,13 +475,13 @@ fieldset {
     }
     /** Header styling < 950px **/
     .header-footer {
-        height: 40px;
+        height: 35px;
     }
     #logo {
         line-height: inherit;
         font-size: 100%;
         margin-left: 8px;
-        margin-top: 8px;
+        margin-top: 5px;
     }
     /** Footer - size and position < 950px **/
     footer {
