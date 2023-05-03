@@ -40,20 +40,18 @@
                 Reserve a table !
             </h2>
             <form action="succes.html">
-                <fieldset>
+                <fieldset class="center-form">
                     <legend>
                         When are we going to see you ?
                     </legend>
                     <label for="date">
-                        <i class="fa-regular fa-calendar-days"></i>
-                        Date: 
+                        Date : 
                     </label>
-                    <input type="date" id="date" name="date"/>
+                    <input class="text-field" type="date" id="date" name="date"/>
                     <label for="time">
-                        <i class="fa-solid fa-clock"></i>
-                        Time: 
+                        Time : 
                     </label>
-                    <select id="time" name="time"/>
+                    <select class="text-field" id="time" name="time"/>
                         <option value="16:00">16:00</option>
                         <option value="16:30">16:30</option>
                         <option value="17:00">17:00</option>
@@ -69,38 +67,25 @@
                         <option value="22:00">22:00</option>
                     </select>
                     <label for="number-guests">
-                        <i class="fa-sharp fa-solid fa-person"></i>
-                        How many guests:
+                        How many guests :
                     </label>
-                    <input type="number-guests" id="number-guests" name="number-guests"/>
+                    <input class="text-field" type="number-guests" id="number-guests" name="number-guests"/>
                 </fieldset>
-                <fieldset>
+                <fieldset class="center-form">
                     <legend>Your details ?</legend>
-                    <label for="fname">First name:</label>
-                    <input type="text" id="fname" name="fname" placeholder="John"/>
-                    <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname" placeholder="Doe"/>
-                    <label for="email">E-mail:</label>
-                    <input type="text" id="email" name="email" placeholder="email@email.com"/>
-                    <label for="phone">Phone number:</label>
-                    <input type="text" id="phone" name="phone"  placeholder="085 123 45 67"/>
+                    <label for="name">Name :</label>
+                    <input class="text-field" type="text" id="name" name="name" placeholder="John Doe"/>
+                    <label for="email">Email:</label>
+                    <input class="text-field" type="text" id="email" name="email" placeholder="email@email.com"/>
+                    <label for="phone">Phone number :</label>
+                    <input class="text-field" type="text" id="phone" name="phone"  placeholder="085 123 45 67"/>
                 </fieldset>
-                <fieldset>
-                    <legend>What welcome drink ?</legend>
-                    <label for="prosseco">Glass of Prosseco</label>
-                    <input type="radio" id="prosseco" name="welcome-drink" value="prosseco">
-                    <label for="perroni">Perroni beer</label>
-                    <input type="radio" id="perroni" name="welcome-drink" value="perroni">
-                    <label for="apple-juice">Aple juice</label>
-                    <input type="radio" id="apple-juice" name="welcome-drink" value="apple-juice" checked>
-                </fieldset>
-                <fieldset>
+                <fieldset class="center-form">
                     <legend>Any special requests ?</legend>
                     <label for="request">Request:</label>
-                    <input type="text" id="request" name="request" placeholder="Please let us know how can we make your stay special ..."/>
+                    <input class="text-field" type="text-filed" id="request" name="request" placeholder="Please let us know how can we make your stay special ..."/>
                 </fieldset>
-                <input type="submit" value="Reserve !"/>
-                <input type="reset" value="Claer form"/>
+                <input type="submit" value="Reserve !"/ id="reserve-button">
             </form>
         </div>
     </section>

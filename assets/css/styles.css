@@ -402,8 +402,8 @@ footer {
 /** Inner container - Reservations **/
 #reserve-content-text {
     color:#f5eed8;
-    height: 50vh; 
-    width: 50vw;
+    height: auto; 
+    width: 60vw;
     position: absolute;
     top: 5vh;
     left: 1vw;
@@ -411,10 +411,58 @@ footer {
 }
 
 /** Font of headings of reservation form - Reservations **/ 
-#reserve-content-text h2{
+#reserve-content-text h2 {
     font-size: 300%;
+    margin: 3%;
+}
+#reserve-content-text legend {
+    font-size: 200%;
+    margin-left: 3%;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 5px;
+}
+#reserve-content-text label {
+    font-size: 150%;
+    margin-left: 3%;
+}
+.text-field {
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid #f5eed8;
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    color:#f5eed8;
+}
+.center-form {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#request {
+    width: 50vw;
+}
+
+/** Reserve button - Resrevations **/
+#reserve-button {
+    padding: 15px 32px;
+    margin: 3%;
+    background-color: rgb(228, 180, 85);
+    color: rgb(49, 54, 57);
+    border: 2px solid rgb(49, 54, 57);
+    font-family: "Amatic SC", Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: 600;
+}
+#reserve-button:hover {
+    padding: 15px 32px;
+    margin: 3%;
+    color: rgb(228, 180, 85);
+    background-color: rgb(49, 54, 57);
+    border: 2px solid rgb(228, 180, 85);
 }
 
 fieldset {
-    background-color: red;
+    margin-top: 20px;
 }
