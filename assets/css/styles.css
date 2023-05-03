@@ -16,7 +16,7 @@ body {
 .header-footer {
     background-color: rgba(228, 180, 85, 0.85);
     width: 100%;
-    height: 100px;
+    height: 11vh;
     position: fixed;
     z-index: 1;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .float-right {
-    float:right;
+    float: right;
     margin-right: 25px;
 }
 
@@ -85,7 +85,7 @@ body {
     border-bottom: 1px solid #58483a;
 }
 #logo, #menu {
-    line-height: 100px;
+    line-height: 9vh;
     color: #58483a;
     font-family: "Vina Sans", Helvetica, sans-serif;
     letter-spacing: 2px;
@@ -183,14 +183,14 @@ footer {
     background-size: cover;
     padding-bottom: 100px;
     height: auto;
-    border-bottom: 110px solid #f5eed8;
+    border-bottom: 12vh solid #f5eed8;
 }
 
 /** Inner container - drinks category **/
 .drink-selection {
     position: relative;
     top: 105px;
-    width: 50vw;
+    width: 65vw;
     height: 370px;
     background-color: rgba(49, 54, 57, 0.95);
     margin-bottom: 25px;
@@ -287,7 +287,7 @@ footer {
     background-size: cover;
     padding-bottom: 100px;
     height: auto;
-    border-bottom: 110px solid #f5eed8;
+    border-bottom: 12vh solid #f5eed8;
 }
 
 /** Inner container - food category **/
@@ -404,13 +404,11 @@ footer {
 /** Inner container -  **/
 #reserve-content-text {
     color:#f5eed8;
-    height: 90%;
-    width: 90%;
+    height: 50vh; 
+    width: 50vw;
     position: absolute;
-    top: 10px;
-    bottom: 0px;
-    left: 10px;
-    right: 10px;
+    top: 5vh;
+    left: 1vw;
     background-color: rgba(49, 54, 57, 0.95);
 }
 #reserve-content-text h2 {
@@ -419,6 +417,5 @@ footer {
 }
 
 fieldset {
-    height: fill-content;
     background-color: red;
 }
