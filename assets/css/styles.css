@@ -136,12 +136,16 @@ footer {
     display: inline;
     padding-left: 25%;
 }
+
+/** Footer - Details **/
 #footer-details {
     float: left;
     width: 60%;
 }
-
-/** Footer - Details **/
+#footer-details > li {
+    display: inline;
+    margin-left: 80px
+}
 #footer-details a {
     color: inherit;
     text-decoration: none;
@@ -434,7 +438,7 @@ footer {
 /** Font of headings of reservation form - Reservations **/ 
 #reserve-content-text h2 {
     font-size: 300%;
-    margin: 3%;
+    margin: 1%;
 }
 #reserve-content-text legend {
     font-size: 200%;
