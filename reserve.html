@@ -40,52 +40,104 @@
                 Reserve a table !
             </h2>
             <form action="succes.html">
-                <fieldset class="center-form">
-                    <legend>
-                        When are we going to see you ?
-                    </legend>
-                    <label for="date">
-                        Date : 
-                    </label>
-                    <input class="text-field" type="date" id="date" name="date"/>
-                    <label for="time">
-                        Time : 
-                    </label>
-                    <select class="text-field" id="time" name="time"/>
-                        <option value="16:00">16:00</option>
-                        <option value="16:30">16:30</option>
-                        <option value="17:00">17:00</option>
-                        <option value="17:30">17:30</option>
-                        <option value="18:00">18:00</option>
-                        <option value="18:30">18:30</option>
-                        <option value="19:00">19:00</option>
-                        <option value="19:30">19:30</option>
-                        <option value="20:00">20:00</option>
-                        <option value="20:30">20:30</option>
-                        <option value="21:00">21:00</option>
-                        <option value="21:30">21:30</option>
-                        <option value="22:00">22:00</option>
-                    </select>
-                    <label for="number-guests">
-                        How many guests :
-                    </label>
-                    <input class="text-field" type="number-guests" id="number-guests" name="number-guests"/>
+                <table>
+                    <tr>
+                        <td colspan="3">
+                            <fieldset>
+                                <legend>
+                                    When are we going to see you ?
+                                </legend>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date">
+                                Date : 
+                            </label>
+                        </td>
+                        <td>
+                            <input class="text-field" type="date" id="date" name="date"/>
+                        </td>
+                        <td>
+                            <label for="time">
+                                Time : 
+                            </label>
+                        </td>
+                        <td>
+                            <select class="text-field" id="time" name="time"/>
+                                <option value="16:00">16:00</option>
+                                <option value="16:30">16:30</option>
+                                <option value="17:00">17:00</option>
+                                <option value="17:30">17:30</option>
+                                <option value="18:00">18:00</option>
+                                <option value="18:30">18:30</option>
+                                <option value="19:00">19:00</option>
+                                <option value="19:30">19:30</option>
+                                <option value="20:00">20:00</option>
+                                <option value="20:30">20:30</option>
+                                <option value="21:00">21:00</option>
+                                <option value="21:30">21:30</option>
+                                <option value="22:00">22:00</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="number-guests">
+                                How many guests :
+                            </label>
+                        </td>
+                        <td>
+                            <input class="text-field" type="number-guests" id="number-guests" name="number-guests" placeholder="How many in your party ?"/>
+                        </td>
+                    </tr>
                 </fieldset>
-                <fieldset class="center-form">
-                    <legend>Your details ?</legend>
-                    <label for="name">Name :</label>
-                    <input class="text-field" type="text" id="name" name="name" placeholder="John Doe"/>
-                    <label for="email">Email:</label>
-                    <input class="text-field" type="text" id="email" name="email" placeholder="email@email.com"/>
-                    <label for="phone">Phone number :</label>
-                    <input class="text-field" type="text" id="phone" name="phone"  placeholder="085 123 45 67"/>
+                <fieldset>
+                    <tr>
+                        <td colspan="3">
+                            <legend>Your details ?</legend>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="name">Name :</label>
+                        </td>
+                        <td>
+                            <input class="text-field" type="text" id="name" name="name" placeholder="John Doe"/>
+                        </td>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input class="text-field" type="text" id="email" name="email" placeholder="email@email.com"/>
+                        </td>
+                        <td>
+                            <label for="phone">Phone number :</label>
+                        </td>
+                        <td>
+                            <input class="text-field" type="text" id="phone" name="phone"  placeholder="085 123 45 67"/>
+                        </td>
+                    </tr>
                 </fieldset>
-                <fieldset class="center-form">
-                    <legend>Any special requests ?</legend>
-                    <label for="request">Request:</label>
-                    <input class="text-field" type="text-filed" id="request" name="request" placeholder="Please let us know how can we make your stay special ..."/>
+                <fieldset>
+                    <tr>
+                        <td colspan="3">
+                            <legend>Any special requests ?</legend>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="request">Request:</label>
+                        </td>
+                        <td colspan="5">
+                            <input class="text-field" type="text-filed" id="request" name="request" placeholder="Please let us know how can we make your stay special ..."/>
+                        </td>
+                    </tr>
                 </fieldset>
-                <input type="submit" value="Reserve !"/ id="reserve-button">
+                    <tr>
+                        <td>
+                            <input type="submit" value="Reserve !" id="reserve-button"/>
+                        </td>
+                    <tr>
+                </table>
             </form>
         </div>
     </section>

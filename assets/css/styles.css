@@ -55,6 +55,22 @@ body {
     background: #af672d;
 }
 
+/** Color of placeholder text **/
+::placeholder {
+    color: rgba(228, 180, 85, 0.85);
+}
+:-ms-input-placeholder {
+    color: rgba(228, 180, 85, 0.85);
+}
+::-ms-input-placeholder {
+    color: rgba(228, 180, 85, 0.85);
+}
+
+/** Color of "select" background **/
+option {
+    background: rgba(49, 54, 57, 0.95);;
+}
+
 /** -------------------------------- HEADER -------------------------------- **/
 /** Header - Logo **/
 #logo {
@@ -403,11 +419,16 @@ footer {
 #reserve-content-text {
     color:#f5eed8;
     height: auto; 
-    width: 60vw;
+    width: auto;
     position: absolute;
     top: 5vh;
     left: 1vw;
     background-color: rgba(49, 54, 57, 0.95);
+}
+#reserve-content-text td {
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /** Font of headings of reservation form - Reservations **/ 
@@ -420,25 +441,17 @@ footer {
     margin-left: 3%;
     font-weight: 600;
     line-height: 30px;
-    padding: 5px;
 }
 #reserve-content-text label {
     font-size: 150%;
-    margin-left: 3%;
 }
 .text-field {
-    margin-left: 20px;
     background: transparent;
     border: 1px solid #f5eed8;
     height: 30px;
     width: 200px;
     padding-left: 10px;
     color:#f5eed8;
-}
-.center-form {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 10px;
 }
 #request {
     width: 50vw;
