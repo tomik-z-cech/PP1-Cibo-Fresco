@@ -80,6 +80,7 @@ option {
     float: left;
     font-size: 280%;
     margin-left: 35px;
+    z-index: 2;
 }
 
 /** Header - Menu **/
@@ -98,6 +99,7 @@ option {
     flex-basis: 0;
     text-transform: uppercase;
     margin-right: 35px;
+    z-index: 3;
 }
 #menu a {
     color: inherit;
@@ -502,9 +504,9 @@ fieldset {
     }
     #logo {
         line-height: 50px;
-        font-size: 100%;
-        margin-left: 8px;
-        margin-top: 30px;
+        font-size: 130%;
+        margin-left: 10px;
+        margin-top: 3px;
     }
     #menu {
         line-height: normal;
@@ -519,7 +521,7 @@ fieldset {
         height: auto;	
         padding-left: 50px;
         background-color: rgba(228, 180, 85, 0.85);
-        font-size: 100%;	
+        font-size: 100%;
     }	
     #hamburger-menu label {	
         display: inline-block;	
@@ -528,7 +530,7 @@ fieldset {
         font-size: 1.2em;	
         padding: 10px;	
         background-color: rgba(228, 180, 85, 0.85);	
-        border: 2px solid #58483a;	
+        border: 2px solid #58483a;
     }	
     #hamburger-menu input:checked ~ #menu { 	
         display: block;	
@@ -539,19 +541,21 @@ fieldset {
 
     /** Footer - size and position < 950px **/
     footer {
+        display: flex;
+        justify-content: space-between;
         bottom: 0px;
         line-height: inherit;
         font-size: 100%;
     }
     #footer-details {
-        text-align: center;        
+        text-align: left;        
         font-size: 100%;
         width: 60%;
     }
+    #footer-details > li {
+        padding-left: 40px;
+    }
     #socials{
         font-size: 120%;
-    }
-    #socials > li {
-        padding-left: 15%;
     }
 }
