@@ -492,6 +492,29 @@ fieldset {
     margin-top: 20px;
 }
 
+/** -------------------------------- RESERVATION - ACCEPTED -------------------------------- **/
+
+#reserve-confirm-text {
+    color:#f5eed8;
+    height: auto; 
+    width: auto;
+    position: absolute;
+    top: 5vh;
+    left: 1vw;
+    background-color: rgba(49, 54, 57, 0.95);
+
+}
+
+#reserve-confirm-text h2 {
+    font-size: 300%;
+    margin: 30px;
+}
+
+#reserve-confirm-text h3 {
+    font-size: 150%;
+    margin: 30px;
+}
+
 /** -------------------------------- MEDIA QUERIES -------------------------------- **/
 @media screen and (max-width: 950px) {
     /** General hiding rule < 950px **/
