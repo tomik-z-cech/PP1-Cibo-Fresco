@@ -110,7 +110,7 @@ option {
     border-bottom: 1px solid #58483a;
 }
 #logo, #menu {
-    line-height: 9vh;
+    line-height: 4vh;
     color: #58483a;
     font-family: "Vina Sans", Helvetica, sans-serif;
     letter-spacing: 2px;
