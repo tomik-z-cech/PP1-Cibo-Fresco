@@ -561,29 +561,29 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
 }
 
 /** -------------------------------- MEDIA QUERIES -------------------------------- **/
+
+/** Max Width 950 px = MAX950 **/
 @media screen and (max-width: 950px) {
-    /** General hiding rule < 950px **/
-    .hide-less-950 {
+    .hide-less-950 {/** General hiding rule = MAX950 **/
         display: none;    
     }
-    /** Header styling < 950px **/
-    .header-footer {
+    .header-footer {/** Header styling = MAX950 **/
         height: 50px;
     }
-    #logo {
+    #logo {/** Header - Logo = MAX950 **/
         line-height: 50px;
         font-size: 130%;
         margin-left: 10px;
         margin-top: 3px;
     }
-    #menu {
+    #menu {/** Header - Menu = MAX950 **/
         line-height: normal;
         font-size: 120%;
         margin-left: 3px;
         margin-top: 200px;
         margin-right: 0px;
     }
-    #menu a {	
+    #menu a {/** Header - Links = MAX950 **/	
         box-sizing: border-box;	
         display: block;	
         width: 95%;
@@ -592,7 +592,7 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         background-color: rgba(228, 180, 85, 0.85);
         font-size: 100%;
     }	
-    #hamburger-menu label {	
+    #hamburger-menu label {/** Header - Hamburger menu = MAX950 **/
         display: inline-block;	
         color: #58483a;	
         font-style: normal;	
@@ -604,34 +604,43 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         right: 0px;
         top: 0px;
     }	
-    #hamburger-menu input:checked ~ #menu { 	
+    #hamburger-menu input:checked ~ #menu {/** Header - Hamburger menu - event:click = MAX950 **/	
         display: block;	
     }
-    #menu {
+    #menu {/** Header - Regular menu - hide = MAX950 **/
         display: none;
     }
-
-    /** Footer - size and position < 950px **/
-    footer {
+    footer {/** Footer - Styling = MAX950 **/
         display: flex;
         justify-content: space-between;
         bottom: 0px;
         line-height: inherit;
         font-size: 100%;
     }
-    #footer-details {
+    #footer-details {/** Footer - Details = MAX950 **/
         text-align: left;        
         font-size: 100%;
         width: 60%;
     }
-    #footer-details > li {
+    #footer-details > li {/** Footer - Details - li = MAX950 **/
         padding-left: 10%;
     }
-    #socials{
+    #socials{/** Footer - Socials = MAX950 **/
         font-size: 120%;
     }
-    #socials > li {
+    #socials > li {/** Footer - Socials - li = MAX950 **/
         display: inline;
         padding-left: 10%;
+    }
+    .content-outer-container {/** Content outer container = MAX950 **/ 
+        width: 95%;
+        position: absolute;
+        left: 2.5%;
+        top: 55px;
+        bottom: 55px;
+    }
+    #home-content-text h2 {/** Set homepage h2 properties = MAX950 **/
+        font-size: 190%;
+        margin: 20px;
     }
 }
