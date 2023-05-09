@@ -777,9 +777,9 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         height: auto;
     }
     .gallery-preview {/** Set round container - Gallery = MAX950 **/
-        height: 140px;
-        width: 140px;
-        margin: 10px;
+        height: 120px;
+        width: 120px;
+        margin: 15px;
     }
     .gallery-zoom {/** Set enlarged picture - Gallery = MAX950 **/
         top: 55px;
