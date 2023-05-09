@@ -643,4 +643,88 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         font-size: 190%;
         margin: 20px;
     }
+    /** -------------------------------- DRINKS MENU -------------------------------- **/
+
+    #drinks-content-outer {/** Set Drinks Menu outer container = MAX950 **/
+        top: 55px;
+        height: auto;
+        border-bottom: 55px solid #f5eed8;
+        }
+        .drink-selection {/** Set Drinks Menu inner conatiners = MAX950 **/
+        top: 80px;
+        width: 85%;
+        height: auto;
+        }
+        .drink-heading {/** Set Outer Round container - drink category image = MAX950 **/
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 85px;
+        top: 10px;
+        padding: 5px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        }
+        .drink-details {/** Set Drink category heading and list container = MAX950 **/
+        padding: 2%;
+        }
+        .drink-details h2 {/** Set Drink category h2 heading = MAX950 **/
+        font-size: 150%;
+        margin: 2px;
+        }
+        .drink-details ul {/** Set Unordered List - Drinks category = MAX950 **/
+        margin-top: 3px;
+        margin-left: 3px;
+        }
+        .drink-details li {/** Set List item - Drinks category = MAX950 **/
+        letter-spacing: 0px;
+        margin-top: 0px;
+        font-size: 100%;
+        }
+        .drink-price {/** Set Drinks prices floating right = MAX950 **/
+        margin-right: 3px;
+        }
+    
+        /** -------------------------------- FOOD MENU -------------------------------- **/
+    
+        #food-content-outer {/** Set Outer container - Food Menu **/
+            top: 55px;
+            height: auto;
+            border-bottom: 55px solid #f5eed8;
+        }
+        .food-selection {/** Set Inner container - Food Menu **/
+            top: 80px;
+            width: 85%;
+            height: auto;
+        }
+        .food-heading {/** Outer Round container - food category image **/
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 85px;
+            top: 10px;
+            padding: 5px;
+            margin-left: 0px;
+            margin-bottom: 30px;
+        }
+        .food-details {/** Container - food heading and list **/
+            padding: 2%;
+        }
+        .food-details h2 {/** Heading - food category **/
+            font-size: 150%;
+            margin: 2px;    
+        }
+        .food-details ul {/** Unordered List - Food category **/
+            margin-top: 3px;
+            margin-left: 3px;
+        }
+        .food-details li {/** List item - Food category **/
+            letter-spacing: 0px;
+            margin-top: 0px;
+            font-size: 100%;
+            margin-bottom: 20px;    
+        }
+        .food-price {/** Food prices floating right **/
+            margin-right: 5px;
+        }
 }
