@@ -655,7 +655,7 @@ fieldset {
     width: 80%;
     position: absolute;
     left: 3%;
-    top: 1%;    
+    top: 10%;    
     overflow: hidden;
     background-color: rgba(49, 54, 57, 0.95);
     padding-bottom: 50px;
@@ -675,7 +675,7 @@ fieldset {
 }
 #get-in-touch > li {
     display: inline-block;
-    width: 30%;
+    width: 45%;
 }
 #get-in-touch a {
     color: inherit;
@@ -689,6 +689,10 @@ fieldset {
     width: 95%;
     height: 20%;
     margin-left: 2.5%;
+}
+
+.contact-half {
+    width: 40%;
 }
 
 /** -------------------------------- MEDIA QUERIES -------------------------------- **/
