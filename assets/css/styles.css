@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
+/** ------------------------------------------------------------------------------- **/
+/** ------------------------ 1920 * 1080 OPTIMIZED  ------------------------------- **/
+/** ------------------------------------------------------------------------------- **/
+
 /** -------------------------------- GENERAL -------------------------------- **/
 
 body {/** Set general background color and font **/
@@ -560,9 +564,11 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     width: 40%;
 }
 
+/** ------------------------------------------------------------------------------- **/
 /** -------------------------------- MEDIA QUERIES -------------------------------- **/
+/** ------------------------------------------------------------------------------- **/
 
-/** Max Width 950 px = MAX950 **/
+/** ------------------------Max Width 950 px = MAX950 ----------------------------- **/
 @media screen and (max-width: 950px) {
     .hide-less-950 {/** General hiding rule = MAX950 **/
         display: none;    
@@ -687,17 +693,17 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     
         /** -------------------------------- FOOD MENU -------------------------------- **/
     
-        #food-content-outer {/** Set Outer container - Food Menu **/
+        #food-content-outer {/** Set Outer container - Food Menu = MAX950 **/
             top: 55px;
             height: auto;
             border-bottom: 55px solid #f5eed8;
         }
-        .food-selection {/** Set Inner container - Food Menu **/
+        .food-selection {/** Set Inner container - Food Menu = MAX950 **/
             top: 80px;
             width: 85%;
             height: auto;
         }
-        .food-heading {/** Outer Round container - food category image **/
+        .food-heading {/** Outer Round container - food category image = MAX950 **/
             width: 100px;
             height: 100px;
             position: relative;
@@ -707,24 +713,86 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
             margin-left: 0px;
             margin-bottom: 30px;
         }
-        .food-details {/** Container - food heading and list **/
+        .food-details {/** Container - food heading and list = MAX950 **/
             padding: 2%;
         }
-        .food-details h2 {/** Heading - food category **/
+        .food-details h2 {/** Heading - food category = MAX950 **/
             font-size: 150%;
             margin: 2px;    
         }
-        .food-details ul {/** Unordered List - Food category **/
+        .food-details ul {/** Unordered List - Food category = MAX950 **/
             margin-top: 3px;
             margin-left: 3px;
         }
-        .food-details li {/** List item - Food category **/
+        .food-details li {/** List item - Food category = MAX950 **/
             letter-spacing: 0px;
             margin-top: 0px;
             font-size: 100%;
             margin-bottom: 20px;    
         }
-        .food-price {/** Food prices floating right **/
+        .food-price {/** Food prices floating right = MAX950 **/
             margin-right: 5px;
         }
+
+        /** -------------------------------- RESERVATIONS -------------------------------- **/
+        #reserve-content {
+            height: auto;
+        }
+        #reserve-content-text {/** Set Inner container - Reservations **/
+        top: 5vh;
+        left: 1vw;
+        }
+        #reserve-content-text h2 {/** Set Inner container - Reservations h2 **/
+        font-size: 150%;
+        margin: 1%;
+        }
+        #reserve-content-text td {/** Set Inner container - Reservations td **/
+        height: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        } 
+        
+        #reserve-content-text legend {/** Set Inner container - Reservations legend **/
+        font-size: 100%;
+        margin-left: 1%;
+        font-weight: 600;
+        line-height: 30px;
+        }
+        #reserve-content-text label {/** Set Inner container - Reservations label **/
+        font-size: 70%;
+        }
+
+
+.text-field {/** Set Inner container - Reservations - input fields **/
+    background: transparent;
+    border: 1px solid #f5eed8;
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    color:#f5eed8;
+}
+#request {/** Set Inner container - Reservations - long input field **/
+    width: 50vw;
+}
+#reserve-button {/** Set Inner container - Reservations - submit button **/
+    padding: 15px 32px;
+    margin: 3%;
+    background-color: rgb(228, 180, 85);
+    color: rgb(49, 54, 57);
+    border: 2px solid rgb(49, 54, 57);
+    font-family: "Amatic SC", Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: 600;
+}
+#reserve-button:hover {/** Set Inner container - Reservations - submit button - event:hover **/
+    padding: 15px 32px;
+    margin: 3%;
+    color: rgb(228, 180, 85);
+    background-color: rgb(49, 54, 57);
+    border: 2px solid rgb(228, 180, 85);
+}
+fieldset {/** Set Inner container - Reservations - fieldset **/
+    margin-top: 20px;
+}
+
 }
