@@ -781,27 +781,19 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         width: 140px;
         margin: 10px;
     }
-.gallery-zoom {/** Set enlarged picture - Gallery **/
-    position: absolute;
-    top: 110px;
-    left: 20%;
-    height: 76%;
-    width: 60%;
-    border: 3px solid rgba(228, 180, 85, 0.85);
-      
-}
-#gallery-navbar {/** Set Navigation bar - Gallery **/
-    background-color: rgba(49, 54, 57, 0.95);
-    font-size: 200%;
+    .gallery-zoom {/** Set enlarged picture - Gallery **/
+        top: 55px;
+        left: 1.5%;
+        height: auto;
+        width: 95%;
+    }
+    #gallery-navbar {/** Set Navigation bar - Gallery **/
+    font-size: 130%;
     height: auto;
-    width: 30%;
+    width: 80%;
     bottom: 20%;
-    right: 35%;
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    border: 3px solid rgba(228, 180, 85, 0.85);
-}
+    left: 10%;
+    }
 #gallery-navbar a {/** Set Navigation bar arrows - Gallery **/
     color:#f5eed8;
     text-decoration: none;
