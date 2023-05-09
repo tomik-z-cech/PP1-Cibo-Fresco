@@ -645,23 +645,27 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         top: 55px;
         bottom: 55px;
     }
+    
+    /** -------------------------------- HOME SCREEN -------------------------------- **/
+    
     #home-content-text h2 {/** Set homepage h2 properties = MAX950 **/
         font-size: 190%;
         margin: 20px;
     }
+
     /** -------------------------------- DRINKS MENU -------------------------------- **/
 
     #drinks-content-outer {/** Set Drinks Menu outer container = MAX950 **/
         top: 55px;
         height: auto;
         border-bottom: 55px solid #f5eed8;
-        }
-        .drink-selection {/** Set Drinks Menu inner conatiners = MAX950 **/
+    }
+    .drink-selection {/** Set Drinks Menu inner conatiners = MAX950 **/
         top: 80px;
         width: 85%;
         height: auto;
-        }
-        .drink-heading {/** Set Outer Round container - drink category image = MAX950 **/
+    }
+    .drink-heading {/** Set Outer Round container - drink category image = MAX950 **/
         width: 100px;
         height: 100px;
         position: relative;
@@ -670,129 +674,86 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         padding: 5px;
         margin-left: 0px;
         margin-bottom: 30px;
-        }
-        .drink-details {/** Set Drink category heading and list container = MAX950 **/
+    }
+    .drink-details {/** Set Drink category heading and list container = MAX950 **/
         padding: 2%;
-        }
-        .drink-details h2 {/** Set Drink category h2 heading = MAX950 **/
+    }
+    .drink-details h2 {/** Set Drink category h2 heading = MAX950 **/
         font-size: 150%;
         margin: 2px;
-        }
-        .drink-details ul {/** Set Unordered List - Drinks category = MAX950 **/
+    }
+    .drink-details ul {/** Set Unordered List - Drinks category = MAX950 **/
         margin-top: 3px;
         margin-left: 3px;
-        }
-        .drink-details li {/** Set List item - Drinks category = MAX950 **/
+    }
+    .drink-details li {/** Set List item - Drinks category = MAX950 **/
         letter-spacing: 0px;
         margin-top: 0px;
         font-size: 100%;
-        }
-        .drink-price {/** Set Drinks prices floating right = MAX950 **/
+    }
+    .drink-price {/** Set Drinks prices floating right = MAX950 **/
         margin-right: 3px;
-        }
+    }
     
-        /** -------------------------------- FOOD MENU -------------------------------- **/
+    /** -------------------------------- FOOD MENU -------------------------------- **/
     
-        #food-content-outer {/** Set Outer container - Food Menu = MAX950 **/
-            top: 55px;
-            height: auto;
-            border-bottom: 55px solid #f5eed8;
-        }
-        .food-selection {/** Set Inner container - Food Menu = MAX950 **/
-            top: 80px;
-            width: 85%;
-            height: auto;
-        }
-        .food-heading {/** Outer Round container - food category image = MAX950 **/
-            width: 100px;
-            height: 100px;
-            position: relative;
-            left: 85px;
-            top: 10px;
-            padding: 5px;
-            margin-left: 0px;
-            margin-bottom: 30px;
-        }
-        .food-details {/** Container - food heading and list = MAX950 **/
-            padding: 2%;
-        }
-        .food-details h2 {/** Heading - food category = MAX950 **/
-            font-size: 150%;
-            margin: 2px;    
-        }
-        .food-details ul {/** Unordered List - Food category = MAX950 **/
-            margin-top: 3px;
-            margin-left: 3px;
-        }
-        .food-details li {/** List item - Food category = MAX950 **/
-            letter-spacing: 0px;
-            margin-top: 0px;
-            font-size: 100%;
-            margin-bottom: 20px;    
-        }
-        .food-price {/** Food prices floating right = MAX950 **/
-            margin-right: 5px;
-        }
-
-        /** -------------------------------- RESERVATIONS -------------------------------- **/
-        #reserve-content {
-            height: auto;
-        }
-        #reserve-content-text {/** Set Inner container - Reservations **/
-        top: 5vh;
-        left: 1vw;
-        }
-        #reserve-content-text h2 {/** Set Inner container - Reservations h2 **/
+    #food-content-outer {/** Set Outer container - Food Menu = MAX950 **/
+        top: 55px;
+        height: auto;
+        border-bottom: 55px solid #f5eed8;
+    }
+    .food-selection {/** Set Inner container - Food Menu = MAX950 **/
+        top: 80px;
+        width: 85%;
+        height: auto;
+    }
+    .food-heading {/** Outer Round container - food category image = MAX950 **/
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 85px;
+        top: 10px;
+        padding: 5px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .food-details {/** Container - food heading and list = MAX950 **/
+        padding: 2%;
+    }
+    .food-details h2 {/** Heading - food category = MAX950 **/
         font-size: 150%;
-        margin: 1%;
-        }
-        #reserve-content-text td {/** Set Inner container - Reservations td **/
-        height: 60px;
-        padding-left: 20px;
-        padding-right: 20px;
-        } 
-        
-        #reserve-content-text legend {/** Set Inner container - Reservations legend **/
+        margin: 2px;    
+    }
+    .food-details ul {/** Unordered List - Food category = MAX950 **/
+        margin-top: 3px;
+        margin-left: 3px;
+    }
+    .food-details li {/** List item - Food category = MAX950 **/
+        letter-spacing: 0px;
+        margin-top: 0px;
         font-size: 100%;
-        margin-left: 1%;
-        font-weight: 600;
-        line-height: 30px;
-        }
-        #reserve-content-text label {/** Set Inner container - Reservations label **/
-        font-size: 70%;
-        }
+        margin-bottom: 20px;    
+    }
+    .food-price {/** Food prices floating right = MAX950 **/
+        margin-right: 5px;
+    }
 
+    /** -------------------------------- RESERVATIONS -------------------------------- **/
+    #reserve-content-text {/** Set Inner container - Reservations **/
+        display: none;
+    }  
+    /** -------------------------------- RESERVATION - ACCEPTED -------------------------------- **/
 
-.text-field {/** Set Inner container - Reservations - input fields **/
-    background: transparent;
-    border: 1px solid #f5eed8;
-    height: 30px;
-    width: 200px;
-    padding-left: 10px;
-    color:#f5eed8;
-}
-#request {/** Set Inner container - Reservations - long input field **/
-    width: 50vw;
-}
-#reserve-button {/** Set Inner container - Reservations - submit button **/
-    padding: 15px 32px;
-    margin: 3%;
-    background-color: rgb(228, 180, 85);
-    color: rgb(49, 54, 57);
-    border: 2px solid rgb(49, 54, 57);
-    font-family: "Amatic SC", Helvetica, sans-serif;
-    font-size: 150%;
-    font-weight: 600;
-}
-#reserve-button:hover {/** Set Inner container - Reservations - submit button - event:hover **/
-    padding: 15px 32px;
-    margin: 3%;
-    color: rgb(228, 180, 85);
-    background-color: rgb(49, 54, 57);
-    border: 2px solid rgb(228, 180, 85);
-}
-fieldset {/** Set Inner container - Reservations - fieldset **/
-    margin-top: 20px;
-}
-
+    #reserve-confirm-text {/** Set Inner container - Reservation Accepted **/
+        width: 95%;
+        left: 2.5%;
+    }
+    #reserve-confirm-text h2 {/** Set Inner container - Reservation Accepted - h2 **/
+        font-size: 200%;
+        margin: 30px;
+    }
+    #reserve-confirm-text h3 {/** Set Inner container - Reservation Accepted - h3 **/
+        font-size: 150%;
+        margin: 30px;
+    }
 }
