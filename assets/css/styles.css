@@ -759,44 +759,72 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     
     /** -------------------------------- GALLERY -------------------------------- **/
 
-    #gallery-content-text {/** Set Inner container - Gallery **/
+    #gallery-content-text {/** Set Inner container - Gallery = MAX950 **/
         width: 95%;
         top: 5vh;
         left: 2.5%;
     }
-    #gallery-content-text h2 {/** Set Inner container - Gallery - h2 **/
+    #gallery-content-text h2 {/** Set Inner container - Gallery - h2 = MAX950 **/
         font-size: 160%;
         margin: 10px;
     }
-    #gallery-content-text h3 {/** Set Inner container - Gallery - h3 **/
+    #gallery-content-text h3 {/** Set Inner container - Gallery - h3 = MAX950 **/
         margin-left: 10px;
         margin-bottom: 0px;
     }
-    #gallery-preview-group {/** Set Inner container - Gallery - preview of pictures **/
+    #gallery-preview-group {/** Set Inner container - Gallery - preview of pictures = MAX950 **/
         width: auto;
         height: auto;
     }
-    .gallery-preview {/** Set round container - Gallery **/
+    .gallery-preview {/** Set round container - Gallery = MAX950 **/
         height: 140px;
         width: 140px;
         margin: 10px;
     }
-    .gallery-zoom {/** Set enlarged picture - Gallery **/
+    .gallery-zoom {/** Set enlarged picture - Gallery = MAX950 **/
         top: 55px;
         left: 1.5%;
         height: auto;
         width: 95%;
     }
-    #gallery-navbar {/** Set Navigation bar - Gallery **/
+    #gallery-navbar {/** Set Navigation bar - Gallery = MAX950 **/
     font-size: 130%;
     height: auto;
     width: 80%;
     bottom: 20%;
     left: 10%;
     }
-#gallery-navbar a {/** Set Navigation bar arrows - Gallery **/
+    #gallery-navbar a {/** Set Navigation bar arrows - Gallery = MAX950 **/
     color:#f5eed8;
     text-decoration: none;
     margin: 30px;
-}
+    }
+    
+    /** -------------------------------- CONTACT PAGE -------------------------------- **/
+
+    #contact-content-text {/** Set Inner container - Contact page **/
+    height: auto;
+    width: 95%;
+    left: 2.5%;
+    padding-bottom: 0px;
+    }
+    #contact-content-text h2 {/** Set Inner container - Contact page - h2 **/
+        font-size: 150%;
+        margin-left: 0%;
+    }
+    #contact-content-text h3 {/** Set Inner container - Contact page - h3 **/
+        font-size: 120%;
+        margin-left: 2.5%;
+    }
+    #get-in-touch {/** Set left container of Contact page content **/
+        margin-left: 2.5%;
+    }
+    #get-in-touch > li {/** Set left container of Contact page content - li **/
+        display: block;
+        width: 100%;
+    }
+    .contact-half {/** Split Inner container of Contact page content **/
+        width: 80%;
+        margin: 3px;
+    }
 }
