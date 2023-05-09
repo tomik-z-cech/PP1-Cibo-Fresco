@@ -63,6 +63,22 @@ body {/** Set general background color and font **/
 option {/** Color of "select" background **/
     background: rgba(49, 54, 57, 0.95);;
 }
+.content-outer-container {/** Content outer container **/ 
+    background-color: #58483a;
+    width: 95%;
+    position: absolute;
+    left: 2.5%;
+    top: 105px;
+    bottom: 105px;
+    overflow: hidden;
+}
+.content-outer-background {/** Content background animation **/
+    width: 100%;
+    height: 100%;
+    animation-name: content-zoom;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+} 
 
 /** -------------------------------- HEADER -------------------------------- **/
 
@@ -74,10 +90,10 @@ option {/** Color of "select" background **/
 .active-page {/** Menu **/
     border-bottom: 1px solid #58483a;
 }	
-#hamburger, #hamburger-menu label {/** Menu items - links **/
+#hamburger, #hamburger-menu label {/** Hamburger menu display **/
     display: none;	
 }	
-#menu {/** Menu items - links **/
+#menu {/** Menu - box**/
     font-size: 130%;
     display: flex;	
     flex-grow: 1;	
@@ -85,24 +101,24 @@ option {/** Color of "select" background **/
     text-transform: uppercase;
     margin-right: 35px;
 }
-#menu a {
+#menu a {/** Menu - links **/
     color: inherit;
     text-decoration: none;
     margin-right: 45px;
 }
-#menu a:hover {
+#menu a:hover {/** Menu - links - event:hover **/
     border-bottom: 1px solid #58483a;
 }
-#logo, #menu {
-    line-height: 3vh;
+#logo, #menu {/** Set logo and menu in line **/
+    line-height: 50px;
     color: #58483a;
     font-family: "Vina Sans", Helvetica, sans-serif;
     letter-spacing: 2px;
 }
 
 /** -------------------------------- FOOTER -------------------------------- **/
-/** Footer - size and position **/
-footer {
+
+footer {/** Footer - size and position **/
     bottom: 0px;
     line-height: 100px;
     color: #58483a;
@@ -111,60 +127,43 @@ footer {
     letter-spacing: 2px;
     text-transform: uppercase;    
 }
-
-/** Footer - Socials **/
-#socials{
+#socials{/** Footer - Socials - position **/
     float: right;
     width: 30%;
     text-align: center;
     padding-right: 5%;
     font-size: 160%;
 }
-#socials a{
+#socials a{/** Footer - Socials - links **/
     color: inherit;
     text-decoration: none;
 }
-#socials > li {
+#socials > li {/** Footer - Socials - links **/
     display: inline;
     padding-left: 15%;
 }
-
-/** Footer - Details **/
-#footer-details {
+#footer-details {/** Foooter - Contact details - position **/
     float: left;
     width: 60%;
 }
-#footer-details > li {
+#footer-details > li {/** Foooter - Contact details - links **/
     display: inline;
     padding-left: 3%;
 }
-#footer-details a {
+#footer-details a {/** Foooter - Contact details - links **/
     color: inherit;
     text-decoration: none;
 }
-#footer-details a:hover, #socials a:hover {
+#footer-details a:hover, #socials a:hover {/** Foooter - Contact details + Socials - event:hover **/
     border-bottom: 1px solid #58483a;
 }
+
 /** -------------------------------- HOME PAGE -------------------------------- **/
-/** Outer container - home **/
-#home-content-outer {
-    background-color: #58483a;
-    width: 95%;
-    position: absolute;
-    left: 2.5%;
-    top: 105px;
-    bottom: 105px;
-    overflow: hidden;
-}
+
 #home-content {
-    width: 100%;
-    height: 100%;
     background: url(../images/home-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation-name: content-zoom;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;    
 }
 
 /** Inner container - home **/
@@ -390,25 +389,10 @@ footer {
 }
 
 /** -------------------------------- RESERVATIONS -------------------------------- **/
-/** Outer container - Reservations **/
-#reserve-content-outer {
-    background-color: #58483a;
-    width: 95%;
-    position: absolute;
-    left: 2.5%;
-    top: 105px;
-    bottom: 105px;
-    overflow: hidden;
-}
 #reserve-content {
-    width: 100%;
-    height: 100%;
     background: url(../images/reserve-background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    animation-name: content-zoom;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;    
+    background-size: cover;    
 }
 
 /** Inner container - Reservations **/
@@ -500,24 +484,10 @@ fieldset {
 
 /** -------------------------------- 404 PAGE -------------------------------- **/
 
-#p404-content-outer {
-    background-color: #58483a;
-    width: 95%;
-    position: absolute;
-    left: 2.5%;
-    top: 105px;
-    bottom: 105px;
-    overflow: hidden;
-}
 #p404-content {
-    width: 100%;
-    height: 100%;
     background: url(../images/p404-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation-name: content-zoom;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;    
 }
 
 #p404-home {
@@ -525,16 +495,6 @@ fieldset {
 }
 
 /** -------------------------------- GALLERY -------------------------------- **/
-
-#gallery-content-outer {
-    background-color: #58483a;
-    width: 95%;
-    position: absolute;
-    left: 2.5%;
-    top: 105px;
-    bottom: 105px;
-    overflow: hidden;
-}
 
 #gallery-content-text {
     color:#f5eed8;
@@ -547,14 +507,9 @@ fieldset {
 }
 
 #gallery-content {
-    width: 100%;
-    height: 100%;
     background: url(../images/gallery-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation-name: content-zoom;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;    
 }
 
 #gallery-content-text h2 {
@@ -611,25 +566,10 @@ fieldset {
 }
 
 /** -------------------------------- CONTACT PAGE -------------------------------- **/
-/** Outer container - contact **/
-#contact-content-outer {
-    background-color: #58483a;
-    width: 95%;
-    position: absolute;
-    left: 2.5%;
-    top: 105px;
-    bottom: 105px;
-    overflow: hidden;
-}
 #contact-content {
-    width: 100%;
-    height: 100%;
     background: url(../images/contact-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation-name: content-zoom;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;    
 }
 
 /** Inner container - contact **/
