@@ -160,14 +160,12 @@ footer {/** Footer - size and position **/
 
 /** -------------------------------- HOME PAGE -------------------------------- **/
 
-#home-content {
+#home-content {/** Set Homepage background **/
     background: url(../images/home-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/** Inner container - home **/
-#home-content-text {
+#home-content-text {/** Set Homepage inner container **/
     color:#f5eed8;
     height: auto;
     width: 65%;
@@ -177,14 +175,14 @@ footer {/** Footer - size and position **/
     overflow: hidden;
     background-color: rgba(49, 54, 57, 0.95);
 }
-#home-content-text h2 {
+#home-content-text h2 {/** Set homepage h2 properties **/
     font-size: 300%;
     margin: 30px;
 }
 
 /** -------------------------------- DRINKS MENU -------------------------------- **/
-/** Outer container - drinks **/ 
-#drinks-content-outer {
+ 
+#drinks-content-outer {/** Set Drinks Menu outer container **/
     background-color: #58483a;
     width: 95%;
     position: absolute;
@@ -196,9 +194,7 @@ footer {/** Footer - size and position **/
     height: auto;
     border-bottom: 12vh solid #f5eed8;
 }
-
-/** Inner container - drinks category **/
-.drink-selection {
+.drink-selection {/** Set Drinks Menu inner conatiners **/
     position: relative;
     top: 105px;
     width: 65vw;
@@ -206,9 +202,7 @@ footer {/** Footer - size and position **/
     background-color: rgba(49, 54, 57, 0.95);
     margin-bottom: 25px;
 }
-
-/** Outer Round container - drink category image **/
-.drink-heading {
+.drink-heading {/** Set Outer Round container - drink category image **/
     position: absolute;
     width: 300px;
     height: 300px;
@@ -218,76 +212,61 @@ footer {/** Footer - size and position **/
     border-radius: 50%;
     background-color: rgba(228, 180, 85, 0.85);
 }
-
-/** Inner Round container - drink category image **/
-.drink-menu-item-image {
+.drink-menu-item-image {/** Set Inner Round container - drink category image **/
     background-size: cover;
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
-
-/** Container - drink heading and list **/
-.drink-details {
+.drink-details {/** Set Drink category heading and list container **/
     padding-left: 40%;
     width: fill-content;
     height: 100%;
     color:#f5eed8;
     text-transform: uppercase;
 }
-
-/** Heading - drink category **/
-.drink-details h2 {
+.drink-details h2 {/** Set Drink category h2 heading **/
     font-size: 300%;
     margin: 5px;
-
 }
-
-/** Unordered List - Drinks category **/
-.drink-details ul {
+.drink-details ul {/** Set Unordered List - Drinks category **/
     margin-top: 30px;
     margin-left: 5px;
     list-style-type: none;
 }
-
-/** List item - Drinks category **/
-.drink-details li {
+.drink-details li {/** Set List item - Drinks category **/
     letter-spacing: 2px;
     margin-top: 10px;
     font-size: 200%;
 }
-
-/** Drinks prices floating right **/
-.drink-price {
+.drink-price {/** Set Drinks prices floating right **/
     float: right;
     margin-right: 15px;
 }
-
-/** Drinks category - images and background colors **/
-#red-wine {
+#red-wine {/** Drink category - image and background color **/
     background-image: url(../images/red-wine.jpg);    
     background-color: #800000;    
 }
-#white-wine {
+#white-wine {/** Drink category - image and background color **/
     background-image: url(../images/white-wine.jpg);
     background-color: #eeedc4;
 }
-#beer {
+#beer {/** Drink category - image and background color **/
     background-image: url(../images/beer.jpg);
     background-color: #ff9001;
 }
-#cocktail {
+#cocktail {/** Drink category - image and background color **/
     background-image: url(../images/cocktail.jpg);
     background-color: #ffb9bd;
 }
-#non-alcoholic {
+#non-alcoholic {/** Drink category - image and background color **/
     background-image: url(../images/non-alcoholic.jpg);
     background-color: #3eb489;
 }
 
 /** -------------------------------- FOOD MENU -------------------------------- **/
-/** Outer container - food **/ 
-#food-content-outer {
+ 
+#food-content-outer {/** Set Outer container - Food Menu **/
     background-color: #58483a;
     width: 95%;
     position: absolute;
@@ -299,9 +278,7 @@ footer {/** Footer - size and position **/
     height: auto;
     border-bottom: 12vh solid #f5eed8;
 }
-
-/** Inner container - food category **/
-.food-selection {
+.food-selection {/** Set Inner container - Food Menu **/
     position: relative;
     top: 105px;
     width: 85vw;
@@ -309,9 +286,7 @@ footer {/** Footer - size and position **/
     background-color: rgba(49, 54, 57, 0.95);
     margin-bottom: 25px;
 }
-
-/** Outer Round container - food category image **/
-.food-heading {
+.food-heading {/** Outer Round container - food category image **/
     position: absolute;
     width: 300px;
     height: 300px;
@@ -321,82 +296,67 @@ footer {/** Footer - size and position **/
     border-radius: 50%;
     background-color: rgba(228, 180, 85, 0.85);
 }
-
-/** Inner Round container - food category image **/
-.food-menu-item-image {
+.food-menu-item-image {/** Inner Round container - food category image **/
     background-size: cover;
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
-
-/** Container - food heading and list **/
-.food-details {
+.food-details {/** Container - food heading and list **/
     padding-left: 20%;
     width: fill-content;
     height: 100%;
     color:#f5eed8;
     text-transform: uppercase;
 }
-
-/** Heading - food category **/
-.food-details h2 {
+.food-details h2 {/** Heading - food category **/
     font-size: 300%;
     margin: 30px;
 
 }
-
-/** Unordered List - Food category **/
-.food-details ul {
+.food-details ul {/** Unordered List - Food category **/
     margin-top: 30px;
     margin-left: 75px;
     list-style-type: none;
 }
-
-/** List item - Food category **/
-.food-details li {
+.food-details li {/** List item - Food category **/
     letter-spacing: 2px;
     margin-top: 10px;
     font-size: 200%;
 }
-
-/** Food prices floating right **/
-.food-price {
+.food-price {/** Food prices floating right **/
     float: right;
     margin-right: 15px;
 }
-
-/** Drinks category - images and background colors **/
-#apetizer {
+#apetizer {/** Food category - image and background color **/
     background-image: url(../images/apetizer.jpg);   
     background-color: #800000;    
 }
-#pizza {
+#pizza {/** Food category - image and background color **/
     background-image: url(../images/pizza.jpg);
     background-color: #eeedc4;
 }
-#pasta {
+#pasta {/** Food category - image and background color **/
     background-image: url(../images/pasta.jpg);
     background-color: #ff9001;
 }
-#dessert {
+#dessert {/** Food category - image and background color **/
     background-image: url(../images/dessert.jpg);
     background-color: #ffb9bd;
 }
-#gelato {
+#gelato {/** Food category - image and background color **/
     background-image: url(../images/gelato.jpg);
     background-color: #3eb489;
 }
 
 /** -------------------------------- RESERVATIONS -------------------------------- **/
-#reserve-content {
+
+#reserve-content {/** Set outer container background - Reservations**/
     background: url(../images/reserve-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;    
 }
-
-/** Inner container - Reservations **/
-#reserve-content-text {
+#reserve-content-text {/** Set Inner container - Reservations **/
     color:#f5eed8;
     height: auto; 
     width: auto;
@@ -405,27 +365,25 @@ footer {/** Footer - size and position **/
     left: 1vw;
     background-color: rgba(49, 54, 57, 0.95);
 }
-#reserve-content-text td {
+#reserve-content-text td {/** Set Inner container - Reservations td **/
     height: 60px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-/** Font of headings of reservation form - Reservations **/ 
-#reserve-content-text h2 {
+} 
+#reserve-content-text h2 {/** Set Inner container - Reservations h2 **/
     font-size: 300%;
     margin: 1%;
 }
-#reserve-content-text legend {
+#reserve-content-text legend {/** Set Inner container - Reservations legend **/
     font-size: 200%;
     margin-left: 3%;
     font-weight: 600;
     line-height: 30px;
 }
-#reserve-content-text label {
+#reserve-content-text label {/** Set Inner container - Reservations label **/
     font-size: 150%;
 }
-.text-field {
+.text-field {/** Set Inner container - Reservations - input fields **/
     background: transparent;
     border: 1px solid #f5eed8;
     height: 30px;
@@ -433,12 +391,10 @@ footer {/** Footer - size and position **/
     padding-left: 10px;
     color:#f5eed8;
 }
-#request {
+#request {/** Set Inner container - Reservations - long input field **/
     width: 50vw;
 }
-
-/** Reserve button - Resrevations **/
-#reserve-button {
+#reserve-button {/** Set Inner container - Reservations - submit button **/
     padding: 15px 32px;
     margin: 3%;
     background-color: rgb(228, 180, 85);
@@ -448,21 +404,20 @@ footer {/** Footer - size and position **/
     font-size: 150%;
     font-weight: 600;
 }
-#reserve-button:hover {
+#reserve-button:hover {/** Set Inner container - Reservations - submit button - event:hover **/
     padding: 15px 32px;
     margin: 3%;
     color: rgb(228, 180, 85);
     background-color: rgb(49, 54, 57);
     border: 2px solid rgb(228, 180, 85);
 }
-
-fieldset {
+fieldset {/** Set Inner container - Reservations - fieldset **/
     margin-top: 20px;
 }
 
 /** -------------------------------- RESERVATION - ACCEPTED -------------------------------- **/
 
-#reserve-confirm-text {
+#reserve-confirm-text {/** Set Inner container - Reservation Accepted **/
     color:#f5eed8;
     height: auto; 
     width: auto;
@@ -471,32 +426,29 @@ fieldset {
     left: 1vw;
     background-color: rgba(49, 54, 57, 0.95);
 }
-
-#reserve-confirm-text h2 {
+#reserve-confirm-text h2 {/** Set Inner container - Reservation Accepted - h2 **/
     font-size: 300%;
     margin: 30px;
 }
-
-#reserve-confirm-text h3 {
+#reserve-confirm-text h3 {/** Set Inner container - Reservation Accepted - h3 **/
     font-size: 150%;
     margin: 30px;
 }
 
 /** -------------------------------- 404 PAGE -------------------------------- **/
 
-#p404-content {
+#p404-content {/** Set Inner container - 404 page **/
     background: url(../images/p404-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-#p404-home {
+#p404-home {/** Set Inner container - 404 page - home link **/
     color:#f5eed8;
 }
 
 /** -------------------------------- GALLERY -------------------------------- **/
 
-#gallery-content-text {
+#gallery-content-text {/** Set Inner container - Gallery **/
     color:#f5eed8;
     height: auto; 
     width: auto;
@@ -505,38 +457,32 @@ fieldset {
     left: 1vw;
     background-color: rgba(49, 54, 57, 0.95);
 }
-
-#gallery-content {
+#gallery-content {/** Set Gallery page background **/
     background: url(../images/gallery-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-#gallery-content-text h2 {
+#gallery-content-text h2 {/** Set Inner container - Gallery - h2 **/
     font-size: 300%;
     margin: 30px;
     margin-bottom: 0px;
 }
-
-#gallery-content-text h3 {
+#gallery-content-text h3 {/** Set Inner container - Gallery - h3 **/
     margin-left: 30px;
     margin-bottom: 30px;
 }
-
-#gallery-preview-group {
+#gallery-preview-group {/** Set Inner container - Gallery - preview of pictures **/
     width: auto;
     height: auto;
 }
-
-.gallery-preview {
+.gallery-preview {/** Set round container - Gallery **/
     height: 200px;
     width: 200px;
     margin: 50px;
     border-radius: 50%;
     border: 5px solid rgba(228, 180, 85, 0.85);
 }
-
-.gallery-zoom {
+.gallery-zoom {/** Set enlarged picture - Gallery **/
     position: absolute;
     top: 110px;
     left: 20%;
@@ -545,8 +491,7 @@ fieldset {
     border: 3px solid rgba(228, 180, 85, 0.85);
       
 }
-
-#gallery-navbar {
+#gallery-navbar {/** Set Navigation bar - Gallery **/
     background-color: rgba(49, 54, 57, 0.95);
     font-size: 200%;
     height: auto;
@@ -558,22 +503,20 @@ fieldset {
     justify-content: space-between;
     border: 3px solid rgba(228, 180, 85, 0.85);
 }
-
-#gallery-navbar a {
+#gallery-navbar a {/** Set Navigation bar arrows - Gallery **/
     color:#f5eed8;
     text-decoration: none;
     margin: 30px;
 }
 
 /** -------------------------------- CONTACT PAGE -------------------------------- **/
-#contact-content {
+
+#contact-content {/** Set Contact page background **/
     background: url(../images/contact-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/** Inner container - contact **/
-#contact-content-text {
+#contact-content-text {/** Set Inner container - Contact page **/
     color:#f5eed8;
     height: auto;
     width: 80%;
@@ -584,38 +527,36 @@ fieldset {
     background-color: rgba(49, 54, 57, 0.95);
     padding-bottom: 50px;
 }
-#contact-content-text h2 {
+#contact-content-text h2 {/** Set Inner container - Contact page - h2 **/
     font-size: 300%;
     margin-left: 2.5%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
-#contact-content-text h3 {
+#contact-content-text h3 {/** Set Inner container - Contact page - h3 **/
     font-size: 160%;
     margin-left: 2.5%;
 }
-#get-in-touch {
+#get-in-touch {/** Set left container of Contact page content **/
     margin-left: 2.5%;
 }
-#get-in-touch > li {
+#get-in-touch > li {/** Set left container of Contact page content - li **/
     display: inline-block;
     width: 45%;
 }
-#get-in-touch a {
+#get-in-touch a {/** Set left container of Contact page content - links **/
     color: inherit;
     text-decoration: none;
 }
-#get-in-touch a:hover {
+#get-in-touch a:hover {/** Set left container of Contact page content - links - event:hover **/
     border-bottom: 1px solid #f5eed8;
 }
-
-#map {
+#map {/** Set right container of Contact page content **/
     width: 95%;
     height: 20%;
     margin-left: 2.5%;
 }
-
-.contact-half {
+.contact-half {/** Split Inner container of Contact page content **/
     width: 40%;
 }
 
