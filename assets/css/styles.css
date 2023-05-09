@@ -744,16 +744,67 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     }  
     /** -------------------------------- RESERVATION - ACCEPTED -------------------------------- **/
 
-    #reserve-confirm-text {/** Set Inner container - Reservation Accepted **/
+    #reserve-confirm-text {/** Set Inner container - Reservation Accepted = MAX950 **/
         width: 95%;
         left: 2.5%;
     }
-    #reserve-confirm-text h2 {/** Set Inner container - Reservation Accepted - h2 **/
+    #reserve-confirm-text h2 {/** Set Inner container - Reservation Accepted - h2 = MAX950 **/
         font-size: 200%;
         margin: 30px;
     }
-    #reserve-confirm-text h3 {/** Set Inner container - Reservation Accepted - h3 **/
+    #reserve-confirm-text h3 {/** Set Inner container - Reservation Accepted - h3 = MAX950 **/
         font-size: 150%;
         margin: 30px;
     }
+    
+    /** -------------------------------- GALLERY -------------------------------- **/
+
+    #gallery-content-text {/** Set Inner container - Gallery **/
+        width: 95%;
+        top: 5vh;
+        left: 2.5%;
+    }
+    #gallery-content-text h2 {/** Set Inner container - Gallery - h2 **/
+        font-size: 160%;
+        margin: 10px;
+    }
+    #gallery-content-text h3 {/** Set Inner container - Gallery - h3 **/
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+    #gallery-preview-group {/** Set Inner container - Gallery - preview of pictures **/
+        width: auto;
+        height: auto;
+    }
+    .gallery-preview {/** Set round container - Gallery **/
+        height: 140px;
+        width: 140px;
+        margin: 10px;
+    }
+.gallery-zoom {/** Set enlarged picture - Gallery **/
+    position: absolute;
+    top: 110px;
+    left: 20%;
+    height: 76%;
+    width: 60%;
+    border: 3px solid rgba(228, 180, 85, 0.85);
+      
+}
+#gallery-navbar {/** Set Navigation bar - Gallery **/
+    background-color: rgba(49, 54, 57, 0.95);
+    font-size: 200%;
+    height: auto;
+    width: 30%;
+    bottom: 20%;
+    right: 35%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgba(228, 180, 85, 0.85);
+}
+#gallery-navbar a {/** Set Navigation bar arrows - Gallery **/
+    color:#f5eed8;
+    text-decoration: none;
+    margin: 30px;
+}
 }
