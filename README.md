@@ -12,6 +12,13 @@
 ### **Features used in every HTML document**
 
 #### **Header**
-Header contains a Logo section (appendix 1) which is also used as a link to Home page `home.html` in the left top corner and Menu section (appendix 2) for easy navigation through all the pages.
+Header contains a Logo section (appendix 1) which is also used as a link to Home page `home.html` in the left top corner and Menu section (appendix 2) for easy navigation through all the pages. Menu is designed to change to "hamburger menu" (appendix 3) when the resolution changes to less than 950 pixels in width.
 
+*Appendix 1*
+
+![Logo](/docs/appendix1.png)
+
+*Appendix 2*
+
+![Menu](/docs/appendix2.png)
 
