@@ -899,7 +899,7 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         width: 100%;
     }
     .contact-half {/** Split Inner container of Contact page content **/
-        width: 80%;
+        width: 220px;
         margin: 3px;
     }
 }
