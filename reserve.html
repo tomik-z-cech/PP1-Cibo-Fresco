@@ -34,38 +34,36 @@
             </nav>	
         </div>
     </header>
-    <section class="content-outer-container">
-        <div id="reserve-content" class="content-outer-background">
-        </div>
+    <section id="reserve-content-outer">
         <div id="reserve-content-text">
             <h2>
                 Reserve a table !
             </h2>
             <form action="succes.html">
-                <table>
-                    <tr>
-                        <td colspan="4">
-                            <fieldset>
-                                <legend>
-                                    When are we going to see you ?
-                                </legend>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
+                <div>
+                    <div class="flex-box-reserve-line">
+                        <div class="flex-box-reserve-heading">
+                        <fieldset>
+                            <legend>
+                                When are we going to see you ?
+                            </legend>
+                        </div>
+                    </div>
+                    <div class="flex-box-reserve-line">
+                        <div class="flex-box-reserve-label">
                             <label for="date">
                                 Date : 
                             </label>
-                        </td>
-                        <td>
+                        </div>
+                        <div class="flex-box-reserve-detail">
                             <input class="text-field" type="date" id="date" name="date" required/>
-                        </td>
-                        <td>
+                        </div>
+                        <div class="flex-box-reserve-label">
                             <label for="time">
                                 Time : 
                             </label>
-                        </td>
-                        <td>
+                        </div>
+                        <div class="flex-box-reserve-detail">
                             <select class="text-field" id="time" name="time" required/>
                                 <option value="16:00">16:00</option>
                                 <option value="16:30">16:30</option>
@@ -81,67 +79,63 @@
                                 <option value="21:30">21:30</option>
                                 <option value="22:00">22:00</option>
                             </select>
-                        </td>
-                        <td>
+                        </div>
+                        <div class="flex-box-reserve-label">
                             <label for="number-guests">
                                 How many guests :
                             </label>
-                        </td>
-                        <td>
+                        </div>
+                        <div class="flex-box-reserve-detail">
                             <input class="text-field" type="number-guests" id="number-guests" name="number-guests" placeholder="How many in your party ?" required/>
-                        </td>
-                    </tr>
+                        </div>
+                    </div>
                 </fieldset>
                 <fieldset>
-                    <tr>
-                        <td colspan="3">
+                    <div class="flex-box-reserve-line">
+                        <div class="flex-box-reserve-heading">
                             <legend>Your details ?</legend>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
+                        </div>
+                    </div>
+                    <div class="flex-box-reserve-line">
+                        <div class="flex-box-reserve-label">
                             <label for="name">Name :</label>
-                        </td>
-                        <td>
+                        </div>
+                        <div class="flex-box-reserve-detail">
                             <input class="text-field" type="text" id="name" name="name" placeholder="John Doe" required/>
-                        </td>
-                        <td>
+                        </div>
+                        <div class="flex-box-reserve-label">
                             <label for="email">Email:</label>
-                        </td>
-                        <td>
+                        </div>
+                        <div class="flex-box-reserve-detail">
                             <input class="text-field" type="text" id="email" name="email" placeholder="email@email.com" required/>
-                        </td>
-                        <td>
+                        </div>
+                        <div class="flex-box-reserve-label">
                             <label for="phone">Phone number :</label>
-                        </td>
-                        <td>
+                        </div>
+                        <div class="flex-box-reserve-detail">
                             <input class="text-field" type="text" id="phone" name="phone"  placeholder="085 123 45 67" required/>
-                        </td>
-                    </tr>
+                        </div>
+                    </div>
                 </fieldset>
                 <fieldset>
-                    <tr>
-                        <td colspan="3">
+                    <div class="flex-box-reserve-line">
+                        <div class="flex-box-reserve-heading">
                             <legend>Any special requests ?</legend>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
+                        </div>
+                    </div>
+                    <div class="flex-box-reserve-line">
+                        <div class="flex-box-reserve-label">
                             <label for="request">Request:</label>
-                        </td>
-                        <td colspan="5">
-                            <input class="text-field" type="text-filed" id="request" name="request" placeholder="Please let us know how can we make your stay special ..."/>
-                        </td>
-                    </tr>
+                        </div>
+                        <div class="flex-box-reserve-item">
+                            <input class="text-field" type="text-filed" id="request" name="request" placeholder="What can we do especially for you?"/>
+                        </div>
+                    </div>
                 </fieldset>
-                    <tr>
-                        <td>
-                            <input type="submit" value="Reserve !" id="reserve-button"/>
-                        </td>
-                    <tr>
-                </table>
+                <input type="submit" value="Reserve !" id="reserve-button"/>
+                </div>
             </form>
-        </div>
+         </div>
     </section>
     <footer class="header-footer">
         <ul id="footer-details">

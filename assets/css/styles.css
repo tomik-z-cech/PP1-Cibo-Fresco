@@ -355,32 +355,48 @@ footer {/** Footer - size and position **/
 
 /** -------------------------------- RESERVATIONS -------------------------------- **/
 
-#reserve-content {/** Set outer container background - Reservations**/
-    background: url(../images/reserve-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;    
+#reserve-content-outer {/** Set Outer container - Reservations **/
+    background-color: #58483a;
+    width: 95%;
+    position: absolute;
+    left: 2.5%;
+    top: 105px;
+    bottom: 0px;
+    background-image: url(../images/reserve-background.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+    border-bottom: 110px solid #f5eed8;
+}
+.flex-box-reserve-line{/** Set Flex box Container - Reservations **/
+    display: flex;
+    flex-direction: row;
+}
+.flex-box-reserve-label{/** Set Flex box Container - Reservations **/
+    width: 200px;
+}
+.flex-box-reserve-detail{/** Set Flex box Container - Reservations **/
+    width: 260px;
+}
+.flex-box-reserve-heading{/** Set Flex box Container - Reservations **/
+    width: 320px;
+    margin-bottom: 20px;
 }
 #reserve-content-text {/** Set Inner container - Reservations **/
     color:#f5eed8;
-    height: auto; 
+    height: auto;
     width: auto;
     position: absolute;
     top: 5vh;
     left: 1vw;
     background-color: rgba(49, 54, 57, 0.95);
+    padding: 20px;
 }
-#reserve-content-text td {/** Set Inner container - Reservations td **/
-    height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-} 
 #reserve-content-text h2 {/** Set Inner container - Reservations h2 **/
     font-size: 300%;
-    margin: 1%;
+    margin: 2%;
 }
 #reserve-content-text legend {/** Set Inner container - Reservations legend **/
     font-size: 200%;
-    margin-left: 3%;
     font-weight: 600;
     line-height: 30px;
 }
@@ -396,11 +412,13 @@ footer {/** Footer - size and position **/
     color:#f5eed8;
 }
 #request {/** Set Inner container - Reservations - long input field **/
-    width: 50vw;
+    width: 1120px;
 }
 #reserve-button {/** Set Inner container - Reservations - submit button **/
+    width: 10%;
     padding: 15px 32px;
-    margin: 3%;
+    margin-top: 2%;
+    margin-left: 45%;
     background-color: rgb(228, 180, 85);
     color: rgb(49, 54, 57);
     border: 2px solid rgb(49, 54, 57);
@@ -410,7 +428,7 @@ footer {/** Footer - size and position **/
 }
 #reserve-button:hover {/** Set Inner container - Reservations - submit button - event:hover **/
     padding: 15px 32px;
-    margin: 3%;
+    margin-left: 45%;
     color: rgb(228, 180, 85);
     background-color: rgb(49, 54, 57);
     border: 2px solid rgb(228, 180, 85);
@@ -420,7 +438,11 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
 }
 
 /** -------------------------------- RESERVATION - ACCEPTED -------------------------------- **/
-
+#reserve-content {/** Set outer container background - Reservations**/
+    background: url(../images/reserve-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
 #reserve-confirm-text {/** Set Inner container - Reservation Accepted **/
     color:#f5eed8;
     height: auto; 
@@ -739,8 +761,61 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     }
 
     /** -------------------------------- RESERVATIONS -------------------------------- **/
-    #reserve-content-text {/** Set Inner container - Reservations **/
-        display: none;
+    #reserve-content-outer {/** Set Outer container - Reservations = MAX950 **/
+        width: 95%;
+        left: 2.5%;
+        top: 55px;
+        padding-bottom: 100px;
+        border-bottom: 55px solid #f5eed8;
+        height: 800px;
+    }
+    .flex-box-reserve-line{/** Set Flex Box container - Reservations = MAX950 **/
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-box-reserve-heading{/** Set Flex Box container - Reservations = MAX950 **/
+        width: 100%;
+    }
+    #reserve-content-text {/** Set Inner container - Reservations = MAX950 **/
+        width: 80%;
+        top: 2%;
+        left: 5%;
+        padding: 20px;
+    }
+    #reserve-content-text h2 {/** Set Inner container - Reservations h2 = MAX950 **/
+        font-size: 170%;
+        margin: 1%;
+    }
+    .flex-box-reserve-label{/** Set Flex Box container - Reservations = MAX950 **/
+        width: 100%;
+    }
+    .flex-box-reserve-detail{/** Set Flex Box container - Reservations = MAX950 **/
+        width: 100%;
+    }
+    #reserve-content-text legend {/** Set Inner container - Reservations legend = MAX950 **/
+        font-size: 200%;
+        font-weight: 600;
+        line-height: 30px;
+        }
+    #reserve-content-text label {/** Set Inner container - Reservations label = MAX950 **/
+        font-size: 150%;
+        }
+    .text-field {/** Set Inner container - Reservations - input fields = MAX950 **/
+        width: 250px;
+    }
+    #request {/** Set Inner container - Reservations - long input field = MAX950 **/
+        width: 250px;
+    }
+    #reserve-button {/** Set Inner container - Reservations - submit button = MAX950 **/
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 30px;
+    }
+    #reserve-button:hover {/** Set Inner container - Reservations - submit button - event:hover = MAX950 **/
+        margin-left: 25%;
+    }
+    fieldset {/** Set Inner container - Reservations - fieldset = MAX950 **/
+        margin-top: 20px;
     }  
     /** -------------------------------- RESERVATION - ACCEPTED -------------------------------- **/
 
