@@ -852,9 +852,9 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         height: auto;
     }
     .gallery-preview {/** Set round container - Gallery = MAX950 **/
-        height: 100px;
-        width: 100px;
-        margin: 15px;
+        height: 80px;
+        width: 80px;
+        margin: 5px 3%;
     }
     .gallery-zoom {/** Set enlarged picture - Gallery = MAX950 **/
         top: 55px;
@@ -866,8 +866,9 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     font-size: 130%;
     height: auto;
     width: 80%;
-    bottom: 20%;
+    bottom: 50px;
     left: 10%;
+    position: fixed;
     }
     #gallery-navbar a {/** Set Navigation bar arrows - Gallery = MAX950 **/
     color:#f5eed8;
