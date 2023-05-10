@@ -5,3 +5,13 @@
 ---
 ## **Site map**
 ![Site Map](/docs/site-map.png)
+---
+
+## **Features**
+
+### **Features used in every HTML document**
+
+#### **Header**
+Header contains a Logo section (appendix 1) which is also used as a link to Home page `home.html` in the left top corner and Menu section (appendix 2) for easy navigation through all the pages.
+
+
