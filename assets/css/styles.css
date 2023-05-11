@@ -589,9 +589,9 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
 /** -------------------------------- MEDIA QUERIES -------------------------------- **/
 /** ------------------------------------------------------------------------------- **/
 
-/** ------------------------------ Max Width 1050 px  ----------------------------- **/
+/** ------------------------------ Max Width 1140 px  ----------------------------- **/
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1140px) {
     .hide-less-950 {/** General hiding rule **/
         display: none;    
     }
@@ -907,9 +907,9 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     }
 }
 
-/** ------------------------ Min Width 1051 px & Max Width 1600 px ----------------------------- **/
+/** ------------------------ Min Width 1141 px & Max Width 1600 px ----------------------------- **/
 
-@media screen and (min-width: 1051px) and (max-width: 1600px) { 
+@media screen and (min-width: 1141px) and (max-width: 1600px) { 
     
     /** -------------------------------- HOME PAGE -------------------------------- **/
     
