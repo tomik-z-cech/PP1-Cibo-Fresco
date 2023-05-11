@@ -590,7 +590,8 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
 /** -------------------------------- MEDIA QUERIES -------------------------------- **/
 /** ------------------------------------------------------------------------------- **/
 
-/** ------------------------Max Width 1050 px = MAX1050 ----------------------------- **/
+/** ------------------------------ Max Width 1050 px  ----------------------------- **/
+
 @media screen and (max-width: 1050px) {
     .hide-less-950 {/** General hiding rule **/
         display: none;    
@@ -904,5 +905,17 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     .contact-half {/** Split Inner container of Contact page content **/
         width: 220px;
         margin: 3px;
+    }
+}
+
+/** ------------------------ Min Width 1051 px & Max Width 1600 px ----------------------------- **/
+
+@media screen and (min-width: 1051px) and (max-width: 1600px) { 
+    .header-footer {/** Header styling **/
+        height: 75px;
+    }
+    .content-outer-container {/** Content outer container **/ 
+        top: 80px;
+        bottom: 80px;
     }
 }
