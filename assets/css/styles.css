@@ -224,7 +224,6 @@ footer {/** Footer - size and position **/
 }
 .drink-details {/** Set Drink category heading and list container **/
     padding-left: 40%;
-    width: fill-content;
     height: 100%;
     color:#f5eed8;
     text-transform: uppercase;
@@ -911,6 +910,9 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
 /** ------------------------ Min Width 1051 px & Max Width 1600 px ----------------------------- **/
 
 @media screen and (min-width: 1051px) and (max-width: 1600px) { 
+    
+    /** -------------------------------- HOME PAGE -------------------------------- **/
+    
     .header-footer {/** Header styling **/
         height: 75px;
     }
@@ -918,4 +920,36 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         top: 80px;
         bottom: 80px;
     }
+    
+    /** -------------------------------- DRINK MENU -------------------------------- **/
+    
+    .drink-selection {/** Set Drinks Menu inner conatiners **/
+        top: 105px;
+        width: 65vw;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    .drink-heading {/** Set Outer Round container - drink category image **/
+        width: 180px;
+        height: 180px;
+        padding: 5px;
+    }
+    .drink-details {/** Set Drink category heading and list container **/
+        padding-left: 25%;
+    }
+    .drink-details h2 {/** Set Drink category h2 heading **/
+        font-size: 250%;
+    }
+    .drink-details ul {/** Set Unordered List - Drinks category **/
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .drink-details li {/** Set List item - Drinks category **/
+        margin-top: 5px;
+    }
+    .drink-price {/** Set Drinks prices floating right **/
+        margin-right: 10px;
+    }
+
+    /** -------------------------------- FOOD MENU -------------------------------- **/
 }
