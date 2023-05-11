@@ -1001,15 +1001,22 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         height: 510px;
         border-bottom: 80px solid #f5eed8;
     }
+    #reserve-content-text {/** Set Inner container - Reservations **/
+        width: 85%;
+        top: 1vh;
+    }
     .flex-box-reserve-label{/** Set Flex box Container - Reservations **/
         width: 150px;
     }
     .flex-box-reserve-detail{/** Set Flex box Container - Reservations **/
         width: 200px;
     }
+    .flex-box-reserve-heading {/** Set Flex box Container - Reservations **/
+        margin-bottom: 10px;
+    }
     #reserve-content-text h2 {/** Set Inner container - Reservations h2 **/
-        font-size: 300%;
-        margin: 2%;
+        font-size: 250%;
+        margin: 0px;
     }
     .text-field {/** Set Inner container - Reservations - input fields **/
         width: 180px;
@@ -1040,6 +1047,4 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     #contact-content-text {/** Set Inner container - Contact page **/
         width: 90%;
         }
-
-
 }
