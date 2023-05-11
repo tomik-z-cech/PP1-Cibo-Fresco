@@ -130,8 +130,34 @@
 
 *Appendix 14 - Gallery Navigation Bar*
 
-![Gallery page - screenshot](/docs/navbar.png)
+![Navigation Bar - screenshot](/docs/navbar.png)
 
 *Appendix 15 - Enlarged Gallery Picture*
 
-![Gallery page - screenshot](/docs/enlarged.png)
+![Enlarged Gallery Picture page - screenshot](/docs/enlarged.png)
+
+### **Contact Page**
+
+- **File** : `contact.html`
+- **Title** : `Cibo Fresco ¦ Contact`
+- **User** : User is able to avail basic contact informatin of **Cibo Fresco** restaurant including phone number, e-mail address, opening times, physical address and map *(appendix 16)*.
+- **Development :** The links with phone number and e-mail address, same as in footer are designed for direct phone call, direct e-mail function respectively using `<a href="tel:...">` and `<a href="mailto:...">`. This is very useful browsing the page on mobile phone device.
+
+*Appendix 16 - Contact Page*
+
+![Contact page - screenshot](/docs/contact.png)
+
+### **Succesful Reservation Page**
+
+- **File** : `succes.html`
+- **Title** : `Cibo Fresco ¦ Reservation succesful`
+- **User** : User gets confirmation of succesful booking within **Cibo Fresco** restaurant *(appendix 17)*.
+- **Development :** As mentioned earlier in this documentation file, this is only a dummy page. Full booking system needs further development.
+
+*Appendix 17 - Successful reservation Page*
+
+![Reservation Successful - screenshot](/docs/succes.png)
+
+---
+
+aaa
