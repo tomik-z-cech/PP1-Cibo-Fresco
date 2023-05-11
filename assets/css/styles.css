@@ -590,28 +590,28 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
 /** -------------------------------- MEDIA QUERIES -------------------------------- **/
 /** ------------------------------------------------------------------------------- **/
 
-/** ------------------------Max Width 950 px = MAX950 ----------------------------- **/
-@media screen and (max-width: 950px) {
-    .hide-less-950 {/** General hiding rule = MAX950 **/
+/** ------------------------Max Width 1050 px = MAX1050 ----------------------------- **/
+@media screen and (max-width: 1050px) {
+    .hide-less-950 {/** General hiding rule **/
         display: none;    
     }
-    .header-footer {/** Header styling = MAX950 **/
+    .header-footer {/** Header styling **/
         height: 50px;
     }
-    #logo {/** Header - Logo = MAX950 **/
+    #logo {/** Header - Logo **/
         line-height: 50px;
         font-size: 130%;
         margin-left: 10px;
         margin-top: 3px;
     }
-    #menu {/** Header - Menu = MAX950 **/
+    #menu {/** Header - Menu **/
         line-height: normal;
         font-size: 120%;
         margin-left: 3px;
         margin-top: 200px;
         margin-right: 0px;
     }
-    #menu a {/** Header - Links = MAX950 **/	
+    #menu a {/** Header - Links **/	
         box-sizing: border-box;	
         display: block;	
         width: 95%;
@@ -620,7 +620,7 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         background-color: rgba(228, 180, 85, 0.85);
         font-size: 100%;
     }	
-    #hamburger-menu label {/** Header - Hamburger menu = MAX950 **/
+    #hamburger-menu label {/** Header - Hamburger menu **/
         display: inline-block;	
         color: #58483a;	
         font-style: normal;	
@@ -632,35 +632,35 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         right: 0px;
         top: 0px;
     }	
-    #hamburger-menu input:checked ~ #menu {/** Header - Hamburger menu - event:click = MAX950 **/	
+    #hamburger-menu input:checked ~ #menu {/** Header - Hamburger menu - event:click **/	
         display: block;	
     }
-    #menu {/** Header - Regular menu - hide = MAX950 **/
+    #menu {/** Header - Regular menu - hide **/
         display: none;
     }
-    footer {/** Footer - Styling = MAX950 **/
+    footer {/** Footer - Styling **/
         display: flex;
         justify-content: space-between;
         bottom: 0px;
         line-height: inherit;
         font-size: 100%;
     }
-    #footer-details {/** Footer - Details = MAX950 **/
+    #footer-details {/** Footer - Details **/
         text-align: left;        
         font-size: 100%;
         width: 60%;
     }
-    #footer-details > li {/** Footer - Details - li = MAX950 **/
+    #footer-details > li {/** Footer - Details - li **/
         padding-left: 10%;
     }
-    #socials{/** Footer - Socials = MAX950 **/
+    #socials{/** Footer - Socials **/
         font-size: 120%;
     }
-    #socials > li {/** Footer - Socials - li = MAX950 **/
+    #socials > li {/** Footer - Socials - li **/
         display: inline;
         padding-left: 10%;
     }
-    .content-outer-container {/** Content outer container = MAX950 **/ 
+    .content-outer-container {/** Content outer container **/ 
         width: 95%;
         position: absolute;
         left: 2.5%;
@@ -670,24 +670,24 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     
     /** -------------------------------- HOME SCREEN -------------------------------- **/
     
-    #home-content-text h2 {/** Set homepage h2 properties = MAX950 **/
+    #home-content-text h2 {/** Set homepage h2 properties **/
         font-size: 190%;
         margin: 20px;
     }
 
     /** -------------------------------- DRINKS MENU -------------------------------- **/
 
-    #drinks-content-outer {/** Set Drinks Menu outer container = MAX950 **/
+    #drinks-content-outer {/** Set Drinks Menu outer container **/
         top: 55px;
         height: auto;
         border-bottom: 55px solid #f5eed8;
     }
-    .drink-selection {/** Set Drinks Menu inner conatiners = MAX950 **/
+    .drink-selection {/** Set Drinks Menu inner conatiners **/
         top: 80px;
         width: 85%;
         height: auto;
     }
-    .drink-heading {/** Set Outer Round container - drink category image = MAX950 **/
+    .drink-heading {/** Set Outer Round container - drink category image **/
         width: 100px;
         height: 100px;
         position: relative;
@@ -697,39 +697,39 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         margin-left: 0px;
         margin-bottom: 30px;
     }
-    .drink-details {/** Set Drink category heading and list container = MAX950 **/
+    .drink-details {/** Set Drink category heading and list container **/
         padding: 2%;
     }
-    .drink-details h2 {/** Set Drink category h2 heading = MAX950 **/
+    .drink-details h2 {/** Set Drink category h2 heading **/
         font-size: 150%;
         margin: 2px;
     }
-    .drink-details ul {/** Set Unordered List - Drinks category = MAX950 **/
+    .drink-details ul {/** Set Unordered List - Drinks category **/
         margin-top: 3px;
         margin-left: 3px;
     }
-    .drink-details li {/** Set List item - Drinks category = MAX950 **/
+    .drink-details li {/** Set List item - Drinks category **/
         letter-spacing: 0px;
         margin-top: 0px;
         font-size: 100%;
     }
-    .drink-price {/** Set Drinks prices floating right = MAX950 **/
+    .drink-price {/** Set Drinks prices floating right **/
         margin-right: 3px;
     }
     
     /** -------------------------------- FOOD MENU -------------------------------- **/
     
-    #food-content-outer {/** Set Outer container - Food Menu = MAX950 **/
+    #food-content-outer {/** Set Outer container - Food Menu **/
         top: 55px;
         height: auto;
         border-bottom: 55px solid #f5eed8;
     }
-    .food-selection {/** Set Inner container - Food Menu = MAX950 **/
+    .food-selection {/** Set Inner container - Food Menu **/
         top: 80px;
         width: 85%;
         height: auto;
     }
-    .food-heading {/** Outer Round container - food category image = MAX950 **/
+    .food-heading {/** Outer Round container - food category image **/
         width: 100px;
         height: 100px;
         position: relative;
@@ -739,29 +739,30 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         margin-left: 0px;
         margin-bottom: 30px;
     }
-    .food-details {/** Container - food heading and list = MAX950 **/
+    .food-details {/** Container - food heading and list **/
         padding: 2%;
     }
-    .food-details h2 {/** Heading - food category = MAX950 **/
+    .food-details h2 {/** Heading - food category **/
         font-size: 150%;
         margin: 2px;    
     }
-    .food-details ul {/** Unordered List - Food category = MAX950 **/
+    .food-details ul {/** Unordered List - Food category **/
         margin-top: 3px;
         margin-left: 3px;
     }
-    .food-details li {/** List item - Food category = MAX950 **/
+    .food-details li {/** List item - Food category **/
         letter-spacing: 0px;
         margin-top: 0px;
         font-size: 100%;
         margin-bottom: 20px;    
     }
-    .food-price {/** Food prices floating right = MAX950 **/
+    .food-price {/** Food prices floating right **/
         margin-right: 5px;
     }
 
     /** -------------------------------- RESERVATIONS -------------------------------- **/
-    #reserve-content-outer {/** Set Outer container - Reservations = MAX950 **/
+
+    #reserve-content-outer {/** Set Outer container - Reservations **/
         width: 95%;
         left: 2.5%;
         top: 55px;
@@ -769,100 +770,100 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         border-bottom: 55px solid #f5eed8;
         height: 800px;
     }
-    .flex-box-reserve-line{/** Set Flex Box container - Reservations = MAX950 **/
+    .flex-box-reserve-line{/** Set Flex Box container - Reservations **/
         display: flex;
         flex-direction: column;
     }
-    .flex-box-reserve-heading{/** Set Flex Box container - Reservations = MAX950 **/
+    .flex-box-reserve-heading{/** Set Flex Box container - Reservations **/
         width: 100%;
     }
-    #reserve-content-text {/** Set Inner container - Reservations = MAX950 **/
+    #reserve-content-text {/** Set Inner container - Reservations **/
         width: 80%;
         top: 2%;
         left: 5%;
         padding: 20px;
     }
-    #reserve-content-text h2 {/** Set Inner container - Reservations h2 = MAX950 **/
+    #reserve-content-text h2 {/** Set Inner container - Reservations h2 **/
         font-size: 170%;
         margin: 1%;
     }
-    .flex-box-reserve-label{/** Set Flex Box container - Reservations = MAX950 **/
+    .flex-box-reserve-label{/** Set Flex Box container - Reservations **/
         width: 100%;
     }
-    .flex-box-reserve-detail{/** Set Flex Box container - Reservations = MAX950 **/
+    .flex-box-reserve-detail{/** Set Flex Box container - Reservations **/
         width: 100%;
     }
-    #reserve-content-text legend {/** Set Inner container - Reservations legend = MAX950 **/
+    #reserve-content-text legend {/** Set Inner container - Reservations legend **/
         font-size: 200%;
         font-weight: 600;
         line-height: 30px;
         }
-    #reserve-content-text label {/** Set Inner container - Reservations label = MAX950 **/
+    #reserve-content-text label {/** Set Inner container - Reservations label **/
         font-size: 150%;
         }
-    .text-field {/** Set Inner container - Reservations - input fields = MAX950 **/
+    .text-field {/** Set Inner container - Reservations - input fields **/
         width: 250px;
     }
-    #request {/** Set Inner container - Reservations - long input field = MAX950 **/
+    #request {/** Set Inner container - Reservations - long input field **/
         width: 250px;
     }
-    #reserve-button {/** Set Inner container - Reservations - submit button = MAX950 **/
+    #reserve-button {/** Set Inner container - Reservations - submit button **/
         width: 50%;
         margin-left: 25%;
         margin-top: 30px;
     }
-    #reserve-button:hover {/** Set Inner container - Reservations - submit button - event:hover = MAX950 **/
+    #reserve-button:hover {/** Set Inner container - Reservations - submit button - event:hover **/
         margin-left: 25%;
     }
-    fieldset {/** Set Inner container - Reservations - fieldset = MAX950 **/
+    fieldset {/** Set Inner container - Reservations - fieldset **/
         margin-top: 20px;
     }  
     /** -------------------------------- RESERVATION - ACCEPTED -------------------------------- **/
 
-    #reserve-confirm-text {/** Set Inner container - Reservation Accepted = MAX950 **/
+    #reserve-confirm-text {/** Set Inner container - Reservation Accepted **/
         width: 95%;
         left: 2.5%;
     }
-    #reserve-confirm-text h2 {/** Set Inner container - Reservation Accepted - h2 = MAX950 **/
+    #reserve-confirm-text h2 {/** Set Inner container - Reservation Accepted - h2 **/
         font-size: 200%;
         margin: 30px;
     }
-    #reserve-confirm-text h3 {/** Set Inner container - Reservation Accepted - h3 = MAX950 **/
+    #reserve-confirm-text h3 {/** Set Inner container - Reservation Accepted - h3 **/
         font-size: 150%;
         margin: 30px;
     }
     
     /** -------------------------------- GALLERY -------------------------------- **/
 
-    #gallery-content-text {/** Set Inner container - Gallery = MAX950 **/
+    #gallery-content-text {/** Set Inner container - Gallery **/
         width: 95%;
         top: 5vh;
         left: 2.5%;
     }
-    #gallery-content-text h2 {/** Set Inner container - Gallery - h2 = MAX950 **/
+    #gallery-content-text h2 {/** Set Inner container - Gallery - h2 **/
         font-size: 160%;
         margin: 10px;
     }
-    #gallery-content-text h3 {/** Set Inner container - Gallery - h3 = MAX950 **/
+    #gallery-content-text h3 {/** Set Inner container - Gallery - h3 **/
         margin-left: 10px;
         margin-bottom: 0px;
     }
-    #gallery-preview-group {/** Set Inner container - Gallery - preview of pictures = MAX950 **/
+    #gallery-preview-group {/** Set Inner container - Gallery - preview of pictures **/
         width: auto;
         height: auto;
     }
-    .gallery-preview {/** Set round container - Gallery = MAX950 **/
+    .gallery-preview {/** Set round container - Gallery **/
         height: 80px;
         width: 80px;
         margin: 5px 3%;
     }
-    .gallery-zoom {/** Set enlarged picture - Gallery = MAX950 **/
+    .gallery-zoom {/** Set enlarged picture - Gallery **/
         top: 55px;
         left: 1.5%;
         height: auto;
         width: 95%;
     }
-    #gallery-navbar {/** Set Navigation bar - Gallery = MAX950 **/
+    #gallery-navbar {/** Set Navigation bar - Gallery **/
     font-size: 130%;
     height: auto;
     width: 80%;
@@ -870,7 +871,7 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     left: 10%;
     position: fixed;
     }
-    #gallery-navbar a {/** Set Navigation bar arrows - Gallery = MAX950 **/
+    #gallery-navbar a {/** Set Navigation bar arrows - Gallery **/
     color:#f5eed8;
     text-decoration: none;
     margin: 30px;
