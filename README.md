@@ -66,7 +66,7 @@
 
 ![Scrollbar](/docs/scrollbar.png)
 
-## Individual HTML documents
+## Main HTML documents
 
 ### **Home Page**
 
@@ -100,9 +100,9 @@
 - **User** : User is able to browse the food dishes that **Cibo Fresco** restaurant is offering *(appendix 11)*.
 - **Development :** This page requiered unordered lists `<ul>` and round CSS containers `border-radius: 50%;`
 
-*Appendix 11 - Drink Menu Page*
+*Appendix 11 - Food Menu Page*
 
-![Food Menu page - screenshot](/docs/food-page.png)
+![Food Menu page - screenshot](/docs/food-menu.png)
 
 ### **Drink Menu Page**
 
@@ -113,4 +113,25 @@
 
 *Appendix 12 - Drink Menu Page*
 
-![Food Menu page - screenshot](/docs/drink-page.png)
+![Drink Menu page - screenshot](/docs/drink-menu.png)
+
+### **Gallery Page**
+
+- **File** : `gallery.html`
+- **Title** : `Cibo Fresco ¦ Gallery`
+- **User** : User is able to browse the selection of pictures of famous **Cibo Fresco** restaurant visitors *(appendix 13)*. User is able to enlarge each picture and navigate between them using naviagtion bar *(appendix 14)*.
+- **Development :** 
+  - This page requiered round CSS containers `border-radius: 50%;`
+  - Each picture in round container is a link to a page with enlarged picture page *(appendix 15)* and a navigation bar *(appendix 14)* that allows the user to navigate between sub-pages `gallery-1.html, gallery-2.html, gallery-3.html, gallery-4.html`.
+
+*Appendix 13 - Gallery Page*
+
+![Gallery page - screenshot](/docs/gallery.png)
+
+*Appendix 14 - Gallery Navigation Bar*
+
+![Gallery page - screenshot](/docs/navbar.png)
+
+*Appendix 15 - Enlarged Gallery Picture*
+
+![Gallery page - screenshot](/docs/enlarged.png)
