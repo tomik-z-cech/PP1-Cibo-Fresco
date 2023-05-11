@@ -18,31 +18,54 @@
 - Header is designed to have fixed position on top of page `top: 0px` through all browsing.
 - Header is designed to cover full width `width: 100%` of the browsing window.
 
-*Appendix 1*
+*Appendix 1 - Logo*
 
 ![Header - Logo](/docs/appendix1.png)
 
-*Appendix 2*
+*Appendix 2 - Menu*
 
 ![Header - Menu](/docs/appendix2.png)
 
-*Appendix 3*
+*Appendix 3 - "Hambuger menu"*
 
 ![Header - Hamburger Menu](/docs/appendix3.png)
 
 ### **Footer**
-- Footer is designed to reveal basic contact details *(appendix 5)* to **Cibo Fresco** restaurant on left side, phone number and email address are constructed to be clickable links that are very useful espeacilly for mobile phone users. Right hand side of footer *(appendix 6)* is designed to bring the user to Social networks web pages (Facebook, Twitter, Instagram) via links that open in new browser tabs.
+- Footer is designed to reveal basic contact details *(appendix 4)* to **Cibo Fresco** restaurant on left side, phone number and email address are constructed to be clickable links that are very useful espeacilly for mobile phone users. Right hand side of footer *(appendix 5)* is designed to bring the user to Social networks web pages (Facebook, Twitter, Instagram) via links that open in new browser tabs.
 - Footer is designed to have fixed position on the bottom of page `bottom: 0px` through all browsing.
 - Footer is designed to cover full width `width: 100%` of the browsing window.
 
-*Appendix 4*
+*Appendix 4 - Contact details*
 
 ![Footer - Contact details](/docs/appendix4.png)
 
-*Appendix 3*
+*Appendix 5 - Social links*
 
 ![Footer - Social links](/docs/appendix5.png)
 
+## Individual HTML documnets
+
 ### **Home Page**
 
-- file : `index.html`
+- **File :** `index.html`
+- **Title :** `Cibo Fresco ¦ Home`
+- **User :** Suggests to users that page they are going to browse is a presentation of Italian restaurant that only uses fresh ingredients to prepare traditional dishes *(appendix 6)*.
+- **Development :** Animation on home page is done used CSS. `@keyframes content-zoom { from { transform: scale(1); } to { transform: scale(1.2); } }`.
+
+*Appendix 6 - Home page*
+
+![Home page - screenshot](/docs/appendix6.png)
+
+### **Reservation Page**
+
+- **File** : `reserve.html`
+- **Title** : `Cibo Fresco ¦ Reservation`
+- **User** : User is able to book a table in **Cibo Fresco** restaurant *(appendix 7)*. This function isn't available at the time of building this project, it does give user imaginary booking number. The form is looking for reservation details also the customer details. Except of one, all form fields a required to be filled `<input ... required/>`.
+- **Development :**
+  - After clicking submit button, user is linked to `succes.html`
+  - Each input field uses appropriate type. `<input type="...">`. This vary between text, date and email.
+  - Input filed for time is contruated with `<select> <option> ... </option> </select>` as I needed to aim only specific times of the day, `<input type="time">` couldn't be used. 
+
+*Appendix 7 - Reservation page*
+
+![Reservation page - screenshot](/docs/appendix7.png)
