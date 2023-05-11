@@ -1033,6 +1033,12 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     }
     #gallery-navbar {/** Set Navigation bar - Gallery **/
         bottom: 80px;
+    }
+    
+    /** -------------------------------- CONTACT PAGE -------------------------------- **/
+
+    #contact-content-text {/** Set Inner container - Contact page **/
+        width: 90%;
         }
 
 
