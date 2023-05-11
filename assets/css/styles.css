@@ -883,6 +883,7 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     height: auto;
     width: 95%;
     left: 2.5%;
+    top: 10px;
     padding-bottom: 0px;
     }
     #contact-content-text h2 {/** Set Inner container - Contact page - h2 **/
