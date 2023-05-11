@@ -923,9 +923,12 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     
     /** -------------------------------- DRINK MENU -------------------------------- **/
     
+    #drinks-content-outer {/** Set Outer container - Drink Menu **/
+        top: 80px;
+    }
     .drink-selection {/** Set Drinks Menu inner conatiners **/
         top: 105px;
-        width: 65vw;
+        width: 65%;
         height: auto;
         margin-bottom: 25px;
     }
@@ -933,6 +936,7 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         width: 180px;
         height: 180px;
         padding: 5px;
+        margin-top: 20px;
     }
     .drink-details {/** Set Drink category heading and list container **/
         padding-left: 25%;
@@ -946,10 +950,46 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     }
     .drink-details li {/** Set List item - Drinks category **/
         margin-top: 5px;
+        letter-spacing: 1px;
     }
     .drink-price {/** Set Drinks prices floating right **/
         margin-right: 10px;
     }
 
     /** -------------------------------- FOOD MENU -------------------------------- **/
+
+    #food-content-outer {/** Set Outer container - Food Menu **/
+        top: 80px;
+    }
+    .food-selection {/** Set Food Menu inner conatiners **/
+        top: 105px;
+        width: 80%;
+        height: 270px;
+        margin-bottom: 25px;
+        padding: 10px;
+    }
+    .food-heading {/** Set Outer Round container - Food category image **/
+        width: 180px;
+        height: 180px;
+        padding: 5px;
+        margin-top: 25px;
+    }
+    .food-details {/** Set Food category heading and list container **/
+        padding-left: 20%;
+    }
+    .food-details h2 {/** Set Food category h2 heading **/
+        font-size: 250%;
+        margin: 0px;
+    }
+    .food-details ul {/** Set Unordered List - Food category **/
+        margin-top: 2px;
+        margin-left: 0px;
+    }
+    .food-details li {/** Set List item - Food category **/
+        margin-top: 5px;
+        letter-spacing: 0px;
+    }
+    .food-price {/** Set Food prices floating right **/
+        margin-right: 2px;
+    }
 }
