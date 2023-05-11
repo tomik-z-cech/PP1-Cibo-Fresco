@@ -160,4 +160,17 @@
 
 ---
 
-aaa
+# **Technologies**
+## Technologies used to develop and deploy this project
+
+- **Balsamiq** - to create wireframes.
+- **HTML** - main programming language for this project
+- **CSS** - styling the project via external CSS file `/asssets/css/styles.css` 
+- **CodeAnywhere** - to write and save the code
+- **GitBash** - to make commitments of progress and push the results back to GitHub
+- **ConText** - code off-line in "doodle-zone" mode
+- **GitHub** - to record all commitments and deployment the live project
+- **FontAwesome** - to find and use icons
+- **TinyPNG** - to compress images
+- **FavIcon.io** - to find and compress favicon
+- **StackEdit** - used to preview and write portions of `readme.MD` file
