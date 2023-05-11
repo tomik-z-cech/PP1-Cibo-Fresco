@@ -992,4 +992,15 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     .food-price {/** Set Food prices floating right **/
         margin-right: 2px;
     }
+
+    /** -------------------------------- GALLERY -------------------------------- **/
+    
+    .gallery-zoom {/** Set enlarged picture - Gallery **/
+        top: 80px;
+    }
+    #gallery-navbar {/** Set Navigation bar - Gallery **/
+        bottom: 80px;
+        }
+
+
 }
