@@ -43,16 +43,30 @@
 
 ![Footer - Social links](/docs/appendix5.png)
 
-## Individual HTML documnets
+### **Favicon**
+- Every HTML document in this project is equipped with Favicon. This is to ease navigation for user in case of more tabs opened. Picture of *pizza slice* was selected asfavicon. 
+
+*Appendix 6 - Favicon*
+
+![Footer - Contact details](/docs/favicon.png)
+
+### **404.html**
+- This project is designed to have custom `404.html` page. In case of user clicks on broken link user isn't completely "cut off" from browsing, instead a page with header and footer appears and user is informed of the situation. 
+
+*Appendix 7 - 404.html*
+
+![Footer - Contact details](/docs/404.png)
+
+## Individual HTML documents
 
 ### **Home Page**
 
 - **File :** `index.html`
 - **Title :** `Cibo Fresco ¦ Home`
-- **User :** Suggests to users that page they are going to browse is a presentation of Italian restaurant that only uses fresh ingredients to prepare traditional dishes *(appendix 6)*.
+- **User :** Suggests to users that page they are going to browse is a presentation of Italian restaurant that only uses fresh ingredients to prepare traditional dishes *(appendix 8)*.
 - **Development :** Animation on home page is done used CSS. `@keyframes content-zoom { from { transform: scale(1); } to { transform: scale(1.2); } }`.
 
-*Appendix 6 - Home page*
+*Appendix 8 - Home page*
 
 ![Home page - screenshot](/docs/appendix6.png)
 
@@ -60,12 +74,12 @@
 
 - **File** : `reserve.html`
 - **Title** : `Cibo Fresco ¦ Reservation`
-- **User** : User is able to book a table in **Cibo Fresco** restaurant *(appendix 7)*. This function isn't available at the time of building this project, it does give user imaginary booking number. The form is looking for reservation details also the customer details. Except of one, all form fields a required to be filled `<input ... required/>`.
+- **User** : User is able to book a table in **Cibo Fresco** restaurant *(appendix 9)*. This function isn't available at the time of building this project, it does give user imaginary booking number. The form is looking for reservation details also the customer details. Except of one, all form fields a required to be filled `<input ... required/>`.
 - **Development :**
   - After clicking submit button, user is linked to `succes.html`
   - Each input field uses appropriate type. `<input type="...">`. This vary between text, date and email.
   - Input filed for time is contruated with `<select> <option> ... </option> </select>` as I needed to aim only specific times of the day, `<input type="time">` couldn't be used. 
 
-*Appendix 7 - Reservation page*
+*Appendix 9 - Reservation page*
 
 ![Reservation page - screenshot](/docs/appendix7.png)
