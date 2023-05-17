@@ -43,10 +43,9 @@
                 <div>
                     <div class="flex-box-reserve-line"> <!-- Visit details section -->
                         <div class="flex-box-reserve-heading">
-                        <fieldset>
-                            <legend>
+                            <h3 class="legend-form">
                                 When are we going to see you ?
-                            </legend>
+                            </h3>
                         </div>
                     </div>
                     <div class="flex-box-reserve-line">
@@ -56,7 +55,7 @@
                             </label>
                         </div>
                         <div class="flex-box-reserve-detail">
-                            <input class="text-field" type="date" id="date" name="date" required/>
+                            <input class="text-field" type="date" id="date" name="date" required>
                         </div>
                         <div class="flex-box-reserve-label">
                             <label for="time">
@@ -64,7 +63,8 @@
                             </label>
                         </div>
                         <div class="flex-box-reserve-detail">
-                            <select class="text-field" id="time" name="time" required/>
+                            <select class="text-field" id="time" name="time" required>
+                                <option value="">Select time</option>
                                 <option value="16:00">16:00</option>
                                 <option value="16:30">16:30</option>
                                 <option value="17:00">17:00</option>
@@ -86,14 +86,14 @@
                             </label>
                         </div>
                         <div class="flex-box-reserve-detail">
-                            <input class="text-field" type="number" id="number-guests" name="number-guests" placeholder="How many in your party ?" required/>
+                            <input class="text-field" type="number" id="number-guests" name="number-guests" placeholder="How many in your party ?" required>
                         </div>
                     </div>
-                </fieldset>
-                <fieldset>
                     <div class="flex-box-reserve-line"> <!-- Customer details section -->
                         <div class="flex-box-reserve-heading">
-                            <legend>Your details ?</legend>
+                            <h3 class="legend-form">
+                                Your details ?
+                            </h3>
                         </div>
                     </div>
                     <div class="flex-box-reserve-line">
@@ -101,26 +101,26 @@
                             <label for="name">Name :</label>
                         </div>
                         <div class="flex-box-reserve-detail">
-                            <input class="text-field" type="text" id="name" name="name" placeholder="John Doe" required/>
+                            <input class="text-field" type="text" id="name" name="name" placeholder="John Doe" required>
                         </div>
                         <div class="flex-box-reserve-label">
                             <label for="email">Email:</label>
                         </div>
                         <div class="flex-box-reserve-detail">
-                            <input class="text-field" type="email" id="email" name="email" placeholder="email@email.com" required/>
+                            <input class="text-field" type="email" id="email" name="email" placeholder="email@email.com" required>
                         </div>
                         <div class="flex-box-reserve-label">
                             <label for="phone">Phone number :</label>
                         </div>
                         <div class="flex-box-reserve-detail">
-                            <input class="text-field" type="tel" id="phone" name="phone"  placeholder="085 123 45 67" required/>
+                            <input class="text-field" type="tel" id="phone" name="phone"  placeholder="085 123 45 67" required>
                         </div>
                     </div>
-                </fieldset>
-                <fieldset>
                     <div class="flex-box-reserve-line"> <!-- Special request section -->
                         <div class="flex-box-reserve-heading">
-                            <legend>Any special requests ?</legend>
+                            <h3 class="legend-form">
+                                Any special requests ?
+                            </h3>
                         </div>
                     </div>
                     <div class="flex-box-reserve-line">
@@ -128,11 +128,10 @@
                             <label for="request">Request:</label>
                         </div>
                         <div class="flex-box-reserve-item">
-                            <input class="text-field" type="text-filed" id="request" name="request" placeholder="What can we do especially for you?"/>
+                            <input class="text-field" type="text" id="request" name="request" placeholder="What can we do especially for you?">
                         </div>
                     </div>
-                </fieldset>
-                <input type="submit" value="Reserve !" id="reserve-button"/> <!-- Submit button -->
+                <input type="submit" value="Reserve !" id="reserve-button"> <!-- Submit button -->
                 </div>
             </form>
          </div>

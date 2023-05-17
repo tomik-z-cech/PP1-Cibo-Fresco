@@ -393,7 +393,9 @@ footer {/** Footer - size and position **/
     font-size: 300%;
     margin: 2%;
 }
-#reserve-content-text legend {/** Set Inner container - Reservations legend **/
+.legend-form {/** Set Inner container - Reservations legend **/
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 200%;
     font-weight: 600;
     line-height: 30px;
@@ -430,9 +432,6 @@ footer {/** Footer - size and position **/
     color: rgb(228, 180, 85);
     background-color: rgb(49, 54, 57);
     border: 2px solid rgb(228, 180, 85);
-}
-fieldset {/** Set Inner container - Reservations - fieldset **/
-    margin-top: 20px;
 }
 
 /** -------------------------------- RESERVATION - ACCEPTED -------------------------------- **/
@@ -796,19 +795,19 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     .flex-box-reserve-detail{/** Set Flex Box container - Reservations **/
         width: 100%;
     }
-    #reserve-content-text legend {/** Set Inner container - Reservations legend **/
-        font-size: 200%;
+    .legend-form{/** Set Inner container - Reservations legend **/
+        font-size: 160%;
         font-weight: 600;
-        line-height: 30px;
+        line-height: 10px;
         }
     #reserve-content-text label {/** Set Inner container - Reservations label **/
         font-size: 150%;
         }
     .text-field {/** Set Inner container - Reservations - input fields **/
-        width: 250px;
+        width: 230px;
     }
     #request {/** Set Inner container - Reservations - long input field **/
-        width: 250px;
+        width: 230px;
     }
     #reserve-button {/** Set Inner container - Reservations - submit button **/
         width: 50%;
@@ -818,9 +817,7 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     #reserve-button:hover {/** Set Inner container - Reservations - submit button - event:hover **/
         margin-left: 25%;
     }
-    fieldset {/** Set Inner container - Reservations - fieldset **/
-        margin-top: 20px;
-    }  
+
     /** -------------------------------- RESERVATION - ACCEPTED -------------------------------- **/
 
     #reserve-confirm-text {/** Set Inner container - Reservation Accepted **/
