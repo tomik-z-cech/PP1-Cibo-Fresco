@@ -1012,7 +1012,7 @@ footer {/** Footer - size and position **/
         width: 200px;
     }
     .flex-box-reserve-heading {/** Set Flex box Container - Reservations **/
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     #reserve-content-text h2 {/** Set Inner container - Reservations h2 **/
         font-size: 250%;
