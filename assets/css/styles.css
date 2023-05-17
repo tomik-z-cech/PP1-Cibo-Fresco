@@ -307,7 +307,6 @@ footer {/** Footer - size and position **/
 }
 .food-details {/** Container - food heading and list **/
     padding-left: 20%;
-    width: fill-content;
     height: 100%;
     color:#f5eed8;
     text-transform: uppercase;
