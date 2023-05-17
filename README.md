@@ -160,6 +160,76 @@
 
 ---
 
+# Wireframes
+| Name of page | Wireframe PC | Wireframe Phone
+|--|--|--|
+| **index.html** | *appendix 18* | *appendix 19*  |
+| **food.html** | *appendix 20* | *appendix 21*  |
+| **drink.html** | *appendix 22* | *appendix 23*  |
+| **reserve.html** | *appendix 24* | *appendix 25*  |
+| **gallery.html** | *appendix 26* | *appendix 27*  |
+| **contact.html** | *appendix 28* | *appendix 29*  |
+
+*Appendix 18 - Wireframe - index.html PC*
+
+![Appendix 18 - Wireframe - index.html PC](docs/home-pc.png)
+
+
+*Appendix 19 - Wireframe - index.html Phone*
+
+![Appendix 19 - Wireframe - index.html Phone](docs/home-phone.png)
+
+
+*Appendix 20 - Wireframe - food.html PC*
+
+![Appendix 20 - Wireframe - index.html PC](docs/food-pc.png)
+
+
+*Appendix 21 - Wireframe - food.html Phone*
+
+![Appendix 21 - Wireframe - index.html Phone](docs/food-phone.png)
+
+
+*Appendix 22 - Wireframe - drink.html PC*
+
+![Appendix 22 - Wireframe - drink.html PC](docs/drink-pc.png)
+
+
+*Appendix 23 - Wireframe - drink.html Phone*
+
+![Appendix 23 - Wireframe - drink.html Phone](docs/drink-phone.png)
+
+
+*Appendix 24 - Wireframe - reserve.html PC*
+
+![Appendix 24 - Wireframe - reserve.html PC](docs/reserve-pc.png)
+
+
+*Appendix 25 - Wireframe - reserve.html Phone*
+
+![Appendix 25 - Wireframe - reserve.html Phone](docs/reserve-phone.png)
+
+*Appendix 26 - Wireframe - gallery.html PC*
+
+![Appendix 26 - Wireframe - gallery.html PC](docs/gallery-pc.png)
+
+
+*Appendix 27 - Wireframe - gallery.html Phone*
+
+![Appendix 27 - Wireframe - gallery.html Phone](docs/gallery-phone.png)
+
+
+*Appendix 28 - Wireframe - contact.html PC*
+
+![Appendix 28 - Wireframe - contact.html PC](docs/contact-pc.png)
+
+
+*Appendix 29 - Wireframe - contact.html Phone*
+
+![Appendix 29 - Wireframe - contact.html Phone](docs/contact-phone.png)
+
+---
+
 # **Technologies**
 ## Technologies used to develop and deploy this project
 
