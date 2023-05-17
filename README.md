@@ -374,9 +374,16 @@
 
 
 ## Bugs
+### Fixed bugs
+Throughout testing, varoius bugs were discovered, especially with very low view-port sizes. They were all fixed, commited and documented via GitHub.
+ - Bug with gallery preview image size
+ - Bug with horizontal phone/tablet orientation `gallery.html`
+ - Bug with gallery navigation bar
+ - Bug with horizontal phone/tablet orientation `contact.html`
+ - Bug with `<input ... type="email">`field
 
-Throughout testing, varoius bugs were discovered, especially with very low view-port sizes. They were all fixed and, commited and documented via GitHub. They are no known bugs of 17.5.2023.
-
+### Unfixed bugs
+ They are no known unfixed bugs of 17.5.2023.
 ---
 
 # **Technologies**
