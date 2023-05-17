@@ -605,6 +605,7 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
         margin-top: 3px;
         position: absolute;
         top: 0px;
+        font-weight: 400;
     }
     #menu {/** Header - Menu **/
         line-height: normal;
