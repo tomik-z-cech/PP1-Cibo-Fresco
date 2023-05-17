@@ -1,7 +1,9 @@
 # **Cibo Fresco - Portfolio Project 1**
 
-- This Portfolio Project 1 website called **Cibo Fresco** is an imaginary restaurant site offering only the best Italian food and drink. Cibo Fresco restaurant is presenting to is't visitors with Food and Drink menu, small picture gallery, contact details and function of making table reservation (Hoping to enable this function later, progressing the course).
-- Live version of **Cibo Fresco** page can be viewed [here](https://tomik-z-cech.github.io/PP1-Cibo-Fresco/) .
+- **Description :** This Portfolio Project 1 website called **Cibo Fresco** is an imaginary restaurant site offering only the best Italian food and drink. Cibo Fresco restaurant is presenting to is't visitors with Food and Drink menu, small picture gallery, contact details and function of making table reservation (Hoping to enable this function later, progressing the course).
+- **Key project goal :** To familiarise visitors of this page with **Cibo Fresco** restaurant, give them hint of the menus and ability to contact the restaurant and make a reservation.
+- **Audience :** There's no age or any other limit to audience of this page. Target audience are adults that are using search engines for restaurant places.
+- **Live version :** Live version of **Cibo Fresco** page can be viewed [here](https://tomik-z-cech.github.io/PP1-Cibo-Fresco/) .
 
 ![Mockup](/docs/mockup.png)
 ---
@@ -157,6 +159,16 @@
 *Appendix 17 - Successful reservation Page*
 
 ![Reservation Successful - screenshot](/docs/succes.png)
+
+## Existing Features summary
+- Users of this page are able to browse through restaurants food and drink menu, able to browse gallery of images. Users are also able find restaurants contact details or contact the restaurant directly via functional links.
+- Site responses to different view-port sizes.
+- Users are able to reserve a table with succes page.
+
+## Feature Features
+- To use JavaScript to enrich reservation page with real reservations.
+- To add floor plan of the restaurant to the reservation section (users are able to pick a table).
+- To add "blog" section where users can comment.
 
 ---
 
@@ -383,7 +395,8 @@ Throughout testing, varoius bugs were discovered, especially with very low view-
  - Bug with `<input ... type="email">`field
 
 ### Unfixed bugs
- They are no known unfixed bugs of 17.5.2023.
+There are no know unfixed bugs as of 17.5.2023.
+
 ---
 
 # **Technologies**
