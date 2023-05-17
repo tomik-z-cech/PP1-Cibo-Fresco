@@ -230,6 +230,155 @@
 
 ---
 
+# Testing
+## Testing via Google Chrome Dev Tools
+- **Task :** To test the project for responsivness in Google Chrome Developer Tools, to ensure correct `@media screen and (max-width: ... )` is enabled and all elements of the project are responding to changing view-port.
+- **Method :** Project was displayed via Google Chrome browser, Developer tools were opened and view-port size changed to different sizes.
+- **Expected result :** Project does response to three levels of view-port sizes.
+- **Actual result :** Project is fully responsive in three levels, view-port width **up to 1140px** (mobile phone devices and tablets), **view-port width 1141px - 1600px** (laptops) and **view-port width over 1600px** (full HD devices). No content is distorted.
+
+## Physical testing by developer
+- **Task :** To physically test the final project responsivness on different devices with different view-port.
+- **Method :** Project was tested on following devices : 
+  - IPhone 8 - mobile phone with small view-port
+  - Samsung Fold Z4 - mobile phone with large view-port
+  - FireHD 8 - tablet with small view-port
+  - Samsung Galaxy tab S6 - tablet with large view-port
+  - PC with resolution 1366px * 768px (HD)
+  - PC with resolution 1920px * 1080px (Full HD)  
+- **Expected result :** Project does response without distorsion on all devices.
+- **Actual result :**  No content is distorted on any of the listed devices.
+---
+- **Task :** To physically test the final project functionality in different browsing appllications.
+- **Method :** Project was tested in following applications : 
+  - Google Chrome
+  - Mozilla Firefox
+  - Microsoft Edge
+  - Opera
+  - Safari
+- **Expected result :** Project does function in all web browsers.
+- **Actual result :**  No content is distorted in any of the listed browsers and project keeps funcionality, all navigation links are working and form is responsive to empty fields.
+---
+- **Task :** To physically test navigation links for broken links icluding header and footer.
+- **Method :** Navigate from `index.html` to all other pages one by one. Once this was done, tho process was repeated for `*.html` documents.
+- **Expected result :** No broken links were expected.
+- **Actual result :**  All naviagtion links were working as expected, all page headings `<title> ... </title>` were also changing as expeceted.
+---
+- **Task :** To physically test form responsivness.
+- **Method :** Navigate to `reserve.html`. Try to submit form without filling all data or invalid data.
+- **Expected result :** Form will not submit without filling `<input ... required/>` or without correct email address.
+- **Actual result :** Form did submit with incorrect email address. This was fixed in commitment [5646f83](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/5646f83fbb062d1531779d89295fc92523ac015a). Form is now behaving as expected.
+---
+## Physical testing by users
+- **Task :** To test "user-friendliness" of project.
+- **Method :** Group of users were given link to deployed project to play with and send feedback.
+
+|User|Henry Healy  |
+|--|--|
+| Feedback given | The site is easy to navigate and provides excellent information for prospective customers! The table reservation is also a great feature. |
+| Applied changes | None |
+---
+|User|Julie Carroll  |
+|--|--|
+| Feedback given | Logo font isn't very clear, could lead to confusion. All links and navigation works perfectly. |
+| Applied changes | Change `font-weight` of logo in `@media screen and (max-width: 1140px)` rule to `400`. Commitment [fedd5f1](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/fedd5f1809c5c1332436346b104133a4cd54abd6) . |
+---
+|User|Eamonn Ryan   |
+|--|--|
+| Feedback given | All looks good and working just fine. |
+| Applied changes | None |
+---
+## Lighthouse testing
+- `*.html` documents were tested via Lighthouse with very good results (*appendix 30*). Suggestion was made on pages `food.html` and `drink.html` to use `webp` image format instead of current `png` format.
+
+*Appendix 30 - Lighthouse testing - `index.html`*
+
+![Appendix 30 - Lighthouse testing - index.html](docs/index-lighthouse.png)
+
+## Validators testing
+
+### Jigsaw CSS validator
+- **Method : ** Project (`styles.css`) was tested by  [W3C CSS Validator](https://jigsaw.w3.org/).
+- **Result :** One error found while testing. This bug was fixed in commitment [b0ce710](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/b0ce71067417f30494f8a8a6fcfb94a7789a3fa8). There are no further errors with CSS code (*appendix 31*).
+
+*Appendix 31 - Jigsaw CSS Validator testing - `styles.css`*
+
+![Appendix 31 - Jigsaw testing - styles.css](docs/styles-jigsaw.png)
+
+### W3C HTML validator
+- **Method : ** Every HTML document was tested by  [W3C Validator](https://validator.w3.org/).
+- **Result :** Initial validating found 2 errors. First error with trailing slash in hidden checkbox. Second error with misplaced `</a>` and `</i>` tags. Both errors were fixed in commitments [67936bc](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/97694607a68a62a4bce42f9db006a0c314ba7721) and [9769460](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/97694607a68a62a4bce42f9db006a0c314ba7721). There were no future errors found after two fixes.
+
+|File|Appendix  |
+|--|--|
+|`index.html`  |*appendix 32*  |
+|`succes.html`  |*appendix 33*  |
+|`reserve.html`  |*appendix 34*  |
+|`gallery.html`  |*appendix 35*  |
+|`gallery-1.html`  |*appendix 36*  |
+|`gallery-2.html`  |*appendix 37*  |
+|`gallery-3.html`  |*appendix 38*  |
+|`gallery-4.html`  |*appendix 39*  |
+|`food-menu.html`  |*appendix 40*  |
+|`drink-menu.html`  |*appendix 41*  |
+|`contact.html`  |*appendix 42*  |
+|`404.html`  |*appendix 43*  |
+
+*Appendix 32 - W3C Validator testing - `index.html`*
+
+![Appendix 32 - W3C Validator testing - index.html](docs/32.png)
+
+*Appendix 33 - W3C Validator testing - `succes.html`*
+
+![Appendix 33 - W3C Validator testing - succes.html](docs/33.png)
+
+*Appendix 34 - W3C Validator testing - `reserve.html`*
+
+![Appendix 34 - W3C Validator testing - reserve.html](docs/34.png)
+
+*Appendix 35 - W3C Validator testing - `gallery.html`*
+
+![Appendix 35 - W3C Validator testing - gallery.html](docs/35.png)
+
+*Appendix 36 - W3C Validator testing - `gallery-1.html`*
+
+![Appendix 36 - W3C Validator testing - gallery-1.html](docs/36.png)
+
+*Appendix 37 - W3C Validator testing - `gallery-2.html`*
+
+![Appendix 37 - W3C Validator testing - gallery-2.html](docs/37.png)
+
+*Appendix 38 - W3C Validator testing - `gallery-3.html`*
+
+![Appendix 38 - W3C Validator testing - gallery-3.html](docs/38.png)
+
+*Appendix 39 - W3C Validator testing - `gallery-4.html`*
+
+![Appendix 39 - W3C Validator testing - gallery-4.html](docs/39.png)
+
+*Appendix 40 - W3C Validator testing - `food-menu.html`*
+
+![Appendix 40 - W3C Validator testing - food-menu.html](docs/40.png)
+
+*Appendix 41 - W3C Validator testing - `drink-menu.html`*
+
+![Appendix 41 - W3C Validator testing - drink-menu.html](docs/41.png)
+
+*Appendix 42 - W3C Validator testing - `contact.html`*
+
+![Appendix 42 - W3C Validator testing - contact.html](docs/42.png)
+
+*Appendix 43 - W3C Validator testing - `404.html`*
+
+![Appendix 43 - W3C Validator testing - 404.html](docs/43.png)
+
+
+## Bugs
+
+Throughout testing, varoius bugs were discovered, especially with very low view-port sizes. They were all fixed and, commited and documented via GitHub. They are no known bugs of 17.5.2023.
+
+---
+
 # **Technologies**
 ## Technologies used to develop and deploy this project
 
