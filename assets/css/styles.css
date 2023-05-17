@@ -804,10 +804,10 @@ footer {/** Footer - size and position **/
         font-size: 150%;
         }
     .text-field {/** Set Inner container - Reservations - input fields **/
-        width: 230px;
+        width: 80%;
     }
     #request {/** Set Inner container - Reservations - long input field **/
-        width: 230px;
+        width: 80%;
     }
     #reserve-button {/** Set Inner container - Reservations - submit button **/
         width: 50%;
