@@ -650,13 +650,14 @@ fieldset {/** Set Inner container - Reservations - fieldset **/
     #footer-details {/** Footer - Details **/
         text-align: left;        
         font-size: 100%;
-        width: 60%;
+        width: 40%;
     }
     #footer-details > li {/** Footer - Details - li **/
         padding-left: 10%;
     }
     #socials{/** Footer - Socials **/
         font-size: 120%;
+        width: 60%;
     }
     #socials > li {/** Footer - Socials - li **/
         display: inline;
