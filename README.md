@@ -1,6 +1,6 @@
 # ***Cibo Fresco - Portfolio Project 1***
 ---
-# **1.Key project information**
+# **1. Key project information**
 
 - **Description :** This Portfolio Project 1 website called **Cibo Fresco** is an imaginary restaurant site offering only the best Italian food and drink. Cibo Fresco restaurant is presenting to is't visitors with Food and Drink menu, small picture gallery, contact details and function of making table reservation (Hoping to enable this function later, progressing the course).
 - **Key project goal :** To familiarise visitors of this page with **Cibo Fresco** restaurant, give them hint of the menus and ability to contact the restaurant and make a reservation.
@@ -13,21 +13,41 @@
 
 # **2.Table of content**
 
-- [1.Key project information](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#1key-project-information)
-- [2.Table of content](#2table-of-content)
- 
+- [1. Key project information](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#1key-project-information)
+- [2. Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+- [3. Site map](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#3site-map)
+- [4. Features](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#4features)
+    - [4.1. Features used in every HTML document](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#features-used-in-every-html-document)
+    - [4.2. Main HTML documents](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#main-html-documents)
+    - [4.3. Existing Features summary](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#existing-features-summary)
+    - [4.4. Feature Features](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#feature-features)
+- [5. Wireframes](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#wireframes)
+- [6. Testing](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#testing)
+    - [6.1. Testing via Google Chrome Dev Tools](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#testing-via-google-chrome-dev-tools)
+    - [6.2. Physical testing by developer](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#physical-testing-by-developer)
+    - [6.3. Physical testing by users](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#physical-testing-by-users)
+    - [6.4. Lighthouse testing](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#lighthouse-testing)
+    - [6.5. Validators testing](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#validators-testing)
+    - [6.6. Accesibility testing (WAVE Web Accessibility Evaluation Tools)](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#accesibility-testing-wave-web-accessibility-evaluation-tools)
+    - [6.7. Bugs](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#bugs)
+ - [7. Deployment ](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#deployment)
+    - [7.1 Transfer of progress from IDE](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#transfer-of-progress-from-ide)
+    - [7.2. Deployement to GitHub Pages](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#deployement-to-github-pages)
+- [8. Technologies & Credits](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#technologies--credits)
+  - [8.1. Technologies used to develop and deploy this project](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#technologies-used-to-develop-and-deploy-this-project) 
+  - [8.2. Credits](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/tree/main#credits)
 
 ---
 
-# **3.Site map**
+# **3. Site map**
 
 ![Site Map](/docs/site-map.png)
 
 ---
 
-# **4.Features**
+# **4. Features**
 
-## **Features used in every HTML document**
+## **4.1. Features used in every HTML document**
 
 ### **Header**
 - Header contains a Logo section *(appendix 1)* which is also used as a link to Home page `index.html` in the left top corner and Menu section *(appendix 2)* for easy navigation through all the pages. Menu is designed to change to "hamburger menu" *(appendix 3)* when the resolution changes to less than 1140 pixels in width.
@@ -47,6 +67,8 @@
 
 ![Header - Hamburger Menu](/docs/appendix3.png)
 
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ### **Footer**
 - Footer is designed to reveal basic contact details *(appendix 4)* to **Cibo Fresco** restaurant on left side, phone number and email address are constructed to be clickable links that are very useful espeacilly for mobile phone users. Right hand side of footer *(appendix 5)* is designed to bring the user to Social networks web pages (Facebook, Twitter, Instagram) via links that open in new browser tabs.
 - Footer is designed to have fixed position on the bottom of page `bottom: 0px` through all browsing.
@@ -61,12 +83,16 @@
 
 ![Footer - Social links](/docs/appendix5.png)
 
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ### **Favicon**
 - Every HTML document in this project is equipped with Favicon. This is to ease navigation for user in case of more tabs opened. Picture of *pizza slice* was selected asfavicon. 
 
 *Appendix 6 - Favicon*
 
 ![Footer - Contact details](/docs/favicon.png)
+
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
 
 ### **404.html**
 - This project is designed to have custom `404.html` page *(appendix 7)*. In case of user clicks on broken link user isn't completely "cut off" from browsing, instead a page with header and footer appears and user is informed of the situation. 
@@ -75,6 +101,8 @@
 
 ![Footer - Contact details](/docs/404.png)
 
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ### **Scrollbar**
 - This project is designed to browse majority of pages without scrolling bar from Food Menu and Drink Menu as they are long. Custom scroll bar was used to fit within the color theme within the project.
 
@@ -82,7 +110,9 @@
 
 ![Scrollbar](/docs/scrollbar.png)
 
-## Main HTML documents
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
+## 4.2. Main HTML documents
 
 ### **Home Page**
 
@@ -94,6 +124,8 @@
 *Appendix 9 - Home page*
 
 ![Home page - screenshot](/docs/appendix6.png)
+
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
 
 ### **Reservation Page**
 
@@ -109,6 +141,8 @@
 
 ![Reservation page - screenshot](/docs/appendix7.png)
 
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ### **Food Menu Page**
 
 - **File** : `food-menu.html`
@@ -120,6 +154,8 @@
 
 ![Food Menu page - screenshot](/docs/food-menu.png)
 
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ### **Drink Menu Page**
 
 - **File** : `drink-menu.html`
@@ -130,6 +166,8 @@
 *Appendix 12 - Drink Menu Page*
 
 ![Drink Menu page - screenshot](/docs/drink-menu.png)
+
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
 
 ### **Gallery Page**
 
@@ -152,6 +190,8 @@
 
 ![Enlarged Gallery Picture page - screenshot](/docs/enlarged.png)
 
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ### **Contact Page**
 
 - **File** : `contact.html`
@@ -162,6 +202,8 @@
 *Appendix 16 - Contact Page*
 
 ![Contact page - screenshot](/docs/contact.png)
+
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
 
 ### **Succesful Reservation Page**
 
@@ -174,19 +216,25 @@
 
 ![Reservation Successful - screenshot](/docs/succes.png)
 
-## Existing Features summary
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
+## **4.3. Existing Features summary**
 - Users of this page are able to browse through restaurants food and drink menu, able to browse gallery of images. Users are also able find restaurants contact details or contact the restaurant directly via functional links.
 - Site responses to different view-port sizes.
 - Users are able to reserve a table with succes page.
 
-## Feature Features
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
+## **4.4. Feature Features**
 - To use JavaScript to enrich reservation page with real reservations.
 - To add floor plan of the restaurant to the reservation section (users are able to pick a table).
 - To add "blog" section where users can comment.
 
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ---
 
-# Wireframes
+# **5. Wireframes**
 | Name of page | Wireframe PC | Wireframe Phone
 |--|--|--|
 | **index.html** | *appendix 18* | *appendix 19*  |
@@ -195,6 +243,8 @@
 | **reserve.html** | *appendix 24* | *appendix 25*  |
 | **gallery.html** | *appendix 26* | *appendix 27*  |
 | **contact.html** | *appendix 28* | *appendix 29*  |
+
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
 
 *Appendix 18 - Wireframe - index.html PC*
 
@@ -254,16 +304,20 @@
 
 ![Appendix 29 - Wireframe - contact.html Phone](docs/contact-phone.png)
 
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ---
 
-# Testing
-## Testing via Google Chrome Dev Tools
+# **6. Testing**
+## **6.1 Testing via Google Chrome Dev Tools**
 - **Task :** To test the project for responsivness in Google Chrome Developer Tools, to ensure correct `@media screen and (max-width: ... )` is enabled and all elements of the project are responding to changing view-port.
 - **Method :** Project was displayed via Google Chrome browser, Developer tools were opened and view-port size changed to different sizes.
 - **Expected result :** Project does response to three levels of view-port sizes.
 - **Actual result :** Project is fully responsive in three levels, view-port width **up to 1140px** (mobile phone devices and tablets), **view-port width 1141px - 1600px** (laptops) and **view-port width over 1600px** (full HD devices). No content is distorted.
 
-## Physical testing by developer
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
+## **6.2. Physical testing by developer**
 - **Task :** To physically test the final project responsivness on different devices with different view-port.
 - **Method :** Project was tested on following devices : 
   - IPhone 8 - mobile phone with small view-port
@@ -294,8 +348,12 @@
 - **Method :** Navigate to `reserve.html`. Try to submit form without filling all data or invalid data.
 - **Expected result :** Form will not submit without filling `<input ... required/>` or without correct email address.
 - **Actual result :** Form did submit with incorrect email address. This was fixed in commitment [5646f83](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/5646f83fbb062d1531779d89295fc92523ac015a). Form is now behaving as expected.
+
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ---
-## Physical testing by users
+
+## **6.3. Physical testing by users**
 - **Task :** To test "user-friendliness" of project.
 - **Method :** Group of users were given link to deployed project to play with and send feedback.
 
@@ -314,14 +372,18 @@
 | Feedback given | All looks good and working just fine. |
 | Applied changes | None |
 ---
-## Lighthouse testing
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+---
+## **6.4. Lighthouse testing**
 - `*.html` documents were tested via Lighthouse with very good results (*appendix 30*). Suggestion was made on pages `food.html` and `drink.html` to use `webp` image format instead of current `png` format.
 
 *Appendix 30 - Lighthouse testing - `index.html`*
 
 ![Appendix 30 - Lighthouse testing - index.html](docs/index-lighthouse.png)
 
-## Validators testing
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
+## **6.5. Validators testing**
 
 ### Jigsaw CSS validator
 - **Method :** Project (`styles.css`) was tested by  [W3C CSS Validator](https://jigsaw.w3.org/).
@@ -334,6 +396,8 @@
 ### W3C HTML validator
 - **Method :** Every HTML document was tested by  [W3C Validator](https://validator.w3.org/).
 - **Result :** Initial validating found 2 errors. First error with trailing slash in hidden checkbox. Second error with misplaced `</a>` and `</i>` tags. Both errors were fixed in commitments [67936bc](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/97694607a68a62a4bce42f9db006a0c314ba7721) and [9769460](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/97694607a68a62a4bce42f9db006a0c314ba7721). There were no future errors found after two fixes.
+
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
 
 |File|Appendix  |
 |--|--|
@@ -398,7 +462,9 @@
 
 ![Appendix 43 - W3C Validator testing - 404.html](docs/43.png)
 
-## Accesibility testing (WAVE Web Accessibility Evaluation Tools)
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
+## **6.6. Accesibility testing (WAVE Web Accessibility Evaluation Tools)**
 
  - **Method :** Every HTML document was tested by  [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/).
  - **Focus :** This test focused on the following. 
@@ -419,8 +485,9 @@
 
 ![WAVE Contrast Report](/docs/wave-contrast.png)
 
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
 
-## Bugs
+## **6.7. Bugs**
 ### Fixed bugs
 Throughout testing, varoius bugs were discovered, especially with very low view-port sizes. They were all fixed, commited and documented via GitHub.
  - Bug with gallery preview image size
@@ -432,10 +499,12 @@ Throughout testing, varoius bugs were discovered, especially with very low view-
 ### Unfixed bugs
 There are no know unfixed bugs as of 17.5.2023.
 
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ---
 
-# Deployment
-## Transfer of progress from IDE
+# **7. Deployment**
+## **7.1. Transfer of progress from IDE**
 
 - **Task :** To ensure regular commitments are done to avoid any data/progress loss.
 - **Method :** 
@@ -444,7 +513,9 @@ There are no know unfixed bugs as of 17.5.2023.
    - command `git push` was used to push all commitments to remote repository on GitHub
 - **Finding :** CodeAnywhere IDE only holds upt to 3 commitments in queue, regular `git push` needed to be used.
 
-## Deployement to GitHub Pages
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
+## **7.2. Deployement to GitHub Pages**
 
 - **Task :** To ensure users are able to view live version of **Cibo Fresco** project.
 - **Method :** 
@@ -452,10 +523,12 @@ There are no know unfixed bugs as of 17.5.2023.
    - all further deployements were done automatically after `git push`
 - **Finding :** It takes approximately 2 minutes from `git push` command to live version being updated.
 
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ---
 
-# **Technologies & Credits**
-## Technologies used to develop and deploy this project
+# **8. Technologies & Credits**
+## 8.1. Technologies used to develop and deploy this project
 
 - **Balsamiq** - to create wireframes.
 - **HTML** - main programming language for this project
@@ -465,7 +538,7 @@ There are no know unfixed bugs as of 17.5.2023.
 - **ConText** - code off-line in "doodle-zone" mode
 - **GitHub** - to record all commitments and deployment the live project
 
-## Credits
+## 8.2. Credits
 - **FontAwesome** - to find and use icons
 - **TinyPNG** - to compress images
 - **FavIcon.io** - to find and compress favicon
@@ -473,3 +546,5 @@ There are no know unfixed bugs as of 17.5.2023.
 - **PicJumbo** - images database
 - **code-boxx.com** - help with hamburger menu
 - **W3School** - useful infomration and cheatsheets
+
+[Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
