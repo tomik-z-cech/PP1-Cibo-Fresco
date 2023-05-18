@@ -866,9 +866,9 @@ footer {/** Footer - size and position **/
     #gallery-navbar {/** Set Navigation bar - Gallery **/
     font-size: 130%;
     height: auto;
-    width: 80%;
+    width: 95%;
     bottom: 50px;
-    left: 10%;
+    left: 2%;
     position: fixed;
     }
     #gallery-navbar a {/** Set Navigation bar arrows - Gallery **/
