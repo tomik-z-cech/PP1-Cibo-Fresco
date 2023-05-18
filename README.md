@@ -324,7 +324,7 @@
 ## Validators testing
 
 ### Jigsaw CSS validator
-- **Method : ** Project (`styles.css`) was tested by  [W3C CSS Validator](https://jigsaw.w3.org/).
+- **Method :** Project (`styles.css`) was tested by  [W3C CSS Validator](https://jigsaw.w3.org/).
 - **Result :** One error found while testing. This bug was fixed in commitment [b0ce710](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/b0ce71067417f30494f8a8a6fcfb94a7789a3fa8). There are no further errors with CSS code (*appendix 31*).
 
 *Appendix 31 - Jigsaw CSS Validator testing - `styles.css`*
@@ -332,7 +332,7 @@
 ![Appendix 31 - Jigsaw testing - styles.css](docs/styles-jigsaw.png)
 
 ### W3C HTML validator
-- **Method : ** Every HTML document was tested by  [W3C Validator](https://validator.w3.org/).
+- **Method :** Every HTML document was tested by  [W3C Validator](https://validator.w3.org/).
 - **Result :** Initial validating found 2 errors. First error with trailing slash in hidden checkbox. Second error with misplaced `</a>` and `</i>` tags. Both errors were fixed in commitments [67936bc](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/97694607a68a62a4bce42f9db006a0c314ba7721) and [9769460](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/97694607a68a62a4bce42f9db006a0c314ba7721). There were no future errors found after two fixes.
 
 |File|Appendix  |
@@ -397,6 +397,27 @@
 *Appendix 43 - W3C Validator testing - `404.html`*
 
 ![Appendix 43 - W3C Validator testing - 404.html](docs/43.png)
+
+## Accesibility testing (WAVE Web Accessibility Evaluation Tools)
+
+ - **Method :** Every HTML document was tested by  [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/).
+ - **Focus :** This test focused on the following. 
+      - Every page has a language declared in header for page readers
+      - WCAG Coding Practices are followed
+      - All forms have correct aria lables `aria-label="..."`
+      - All images have correct alt labels `<alt="...">`
+      - Heading levels are in correct order `<h1> - <h2> - <h3>`
+      - Correct contrast ratio - **minimal contrast ratio 4.5:1**
+
+ - **Result :** Automated testing found no errors, contrast errors or alerts (*Appendix 44*). Contrast ratio of this project is **8.59:1** (*Appendix 45*).
+
+*Appendix 44 - WAVE Report*
+
+![WAVE Report](/docs/wave-testing.png)
+
+*Appendix 45 - WAVE Contrast Report*
+
+![WAVE Contrast Report](/docs/wave-contrast.png)
 
 
 ## Bugs
