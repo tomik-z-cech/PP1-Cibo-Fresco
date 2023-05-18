@@ -15,27 +15,27 @@
 
 - [1. Key project information](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#1-key-project-information)
 - [2. Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
-- [3. Site map]((https://github.com/tomik-z-cech/PP1-Cibo-Fresco#3-site-map)
+- [3. Site map](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#3-site-map)
 - [4. Features](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#4-features)
     - [4.1. Features used in every HTML document](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#41-features-used-in-every-html-document)
     - [4.2. Main HTML documents](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#42-main-html-documents)
     - [4.3. Existing Features summary](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#43-existing-features-summary)
     - [4.4. Feature Features](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#44-feature-features)
 - [5. Wireframes](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#5-wireframes)
-- [6. Testing](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#testing)
-    - [6.1. Testing via Google Chrome Dev Tools](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#testing-via-google-chrome-dev-tools)
-    - [6.2. Physical testing by developer](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#physical-testing-by-developer)
-    - [6.3. Physical testing by users](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#physical-testing-by-users)
-    - [6.4. Lighthouse testing](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#lighthouse-testing)
-    - [6.5. Validators testing](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#validators-testing)
-    - [6.6. Accesibility testing (WAVE Web Accessibility Evaluation Tools)](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#accesibility-testing-wave-web-accessibility-evaluation-tools)
-    - [6.7. Bugs](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#bugs)
- - [7. Deployment ](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#deployment)
-    - [7.1 Transfer of progress from IDE](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#transfer-of-progress-from-ide)
-    - [7.2. Deployement to GitHub Pages](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#deployement-to-github-pages)
-- [8. Technologies & Credits](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#technologies--credits)
-  - [8.1. Technologies used to develop and deploy this project](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#technologies-used-to-develop-and-deploy-this-project) 
-  - [8.2. Credits](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#credits)
+- [6. Testing](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#6-testing)
+    - [6.1. Testing via Google Chrome Dev Tools](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#61-testing-via-google-chrome-dev-tools)
+    - [6.2. Physical testing by developer](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#62-physical-testing-by-developer)
+    - [6.3. Physical testing by users](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#63-physical-testing-by-users)
+    - [6.4. Lighthouse testing](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#64-lighthouse-testing)
+    - [6.5. Validators testing](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#65-validators-testing)
+    - [6.6. Accesibility testing (WAVE Web Accessibility Evaluation Tools)](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#66-accesibility-testing-wave-web-accessibility-evaluation-tools)
+    - [6.7. Bugs](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#67-bugs)
+ - [7. Deployment ](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#7-deployment)
+    - [7.1 Transfer of progress from IDE](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#71-transfer-of-progress-from-ide)
+    - [7.2. Deployement to GitHub Pages](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#72-deployement-to-github-pages)
+- [8. Technologies & Credits](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#8-technologies--credits)
+  - [8.1. Technologies used to develop and deploy this project](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#81-technologies-used-to-develop-and-deploy-this-project)
+  - [8.2. Credits](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#82-credits)
 
 ---
 
@@ -372,7 +372,9 @@
 | Feedback given | All looks good and working just fine. |
 | Applied changes | None |
 ---
+
 [Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
 ---
 ## **6.4. Lighthouse testing**
 - `*.html` documents were tested via Lighthouse with very good results (*appendix 30*). Suggestion was made on pages `food.html` and `drink.html` to use `webp` image format instead of current `png` format.
