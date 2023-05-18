@@ -13,15 +13,15 @@
 
 # **2.Table of content**
 
-- [1. Key project information](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#1key-project-information)
+- [1. Key project information](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#1-key-project-information)
 - [2. Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
-- [3. Site map](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#3site-map)
-- [4. Features](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#4features)
-    - [4.1. Features used in every HTML document](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#features-used-in-every-html-document)
-    - [4.2. Main HTML documents](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#main-html-documents)
-    - [4.3. Existing Features summary](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#existing-features-summary)
-    - [4.4. Feature Features](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#feature-features)
-- [5. Wireframes](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#wireframes)
+- [3. Site map]((https://github.com/tomik-z-cech/PP1-Cibo-Fresco#3-site-map)
+- [4. Features](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#4-features)
+    - [4.1. Features used in every HTML document](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#41-features-used-in-every-html-document)
+    - [4.2. Main HTML documents](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#42-main-html-documents)
+    - [4.3. Existing Features summary](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#43-existing-features-summary)
+    - [4.4. Feature Features](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#44-feature-features)
+- [5. Wireframes](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#5-wireframes)
 - [6. Testing](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#testing)
     - [6.1. Testing via Google Chrome Dev Tools](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#testing-via-google-chrome-dev-tools)
     - [6.2. Physical testing by developer](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#physical-testing-by-developer)
