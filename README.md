@@ -33,6 +33,7 @@
  - [7. Deployment ](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#7-deployment)
     - [7.1. Transfer of progress from IDE](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#71-transfer-of-progress-from-ide)
     - [7.2. Deployment to GitHub Pages](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#72-deployement-to-github-pages)
+    - [7.3. Offline cloning]https://github.com/tomik-z-cech/PP1-Cibo-Fresco/edit/main/README.md#73-offline-cloning
 - [8. Technologies & Credits](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#8-technologies--credits)
   - [8.1. Technologies used to develop and deploy this project](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#81-technologies-used-to-develop-and-deploy-this-project)
   - [8.2. Credits](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#82-credits)
@@ -54,6 +55,8 @@
 - Header is designed to have fixed position on top of page `top: 0px` through all browsing.
 - Header is designed to cover full width `width: 100%` of the browsing window.
 - Header is semi-transparent using `background-color: rgba(228, 180, 85, 0.85);`.
+- This will allow user to navigate through the pages and to navigate back to home page when clicked on logo.
+- Header appears same on all devices.
 
 *Appendix 1 - Logo*
 
@@ -74,6 +77,8 @@
 - Footer is designed to have fixed position on the bottom of page `bottom: 0px` through all browsing.
 - Footer is designed to cover full width `width: 100%` of the browsing window.
 - Footer is semi-transparent using `background-color: rgba(228, 180, 85, 0.85);`.
+- This will allow user to open phone app(dial the number directly), send e-mail (open e-mail application on phone/tablet) and open all social networks links in new window.
+- Footer appears same on all devices.
 
 *Appendix 4 - Contact details*
 
@@ -314,6 +319,7 @@
 - **Method :** Project was displayed via Google Chrome browser, Developer tools were opened and view-port size changed to different sizes.
 - **Expected result :** Project does response to three levels of view-port sizes.
 - **Actual result :** Project is fully responsive in three levels, view-port width **up to 1140px** (mobile phone devices and tablets), **view-port width 1141px - 1600px** (laptops) and **view-port width over 1600px** (full HD devices). No content is distorted.
+- **Overall result :** Pass
 
 [Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
 
@@ -328,6 +334,7 @@
   - PC with resolution 1920px * 1080px (Full HD)  
 - **Expected result :** Project does response without distortion on all devices.
 - **Actual result :**  No content is distorted on any of the listed devices.
+- **Overall result :** Pass
 ---
 - **Task :** To physically test the final project functionality in different browsing applications.
 - **Method :** Project was tested in following applications : 
@@ -338,16 +345,19 @@
   - Safari
 - **Expected result :** Project does function in all web browsers.
 - **Actual result :**  No content is distorted in any of the listed browsers and project keeps functionality, all navigation links are working and form is responsive to empty fields.
+- **Overall result :** Pass
 ---
 - **Task :** To physically test navigation links for broken links including header and footer.
 - **Method :** Navigate from `index.html` to all other pages one by one. Once this was done, tho process was repeated for `*.html` documents.
 - **Expected result :** No broken links were expected.
 - **Actual result :**  All navigation links were working as expected, all page headings `<title> ... </title>` were also changing as expected.
+- **Overall result :** Pass
 ---
 - **Task :** To physically test form responsiveness.
 - **Method :** Navigate to `reserve.html`. Try to submit form without filling all data or invalid data.
 - **Expected result :** Form will not submit without filling `<input ... required/>` or without correct email address.
 - **Actual result :** Form did submit with incorrect email address. This was fixed in commitment [5646f83](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/commit/5646f83fbb062d1531779d89295fc92523ac015a). Form is now behaving as expected.
+- **Overall result :** Pass
 
 [Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
 
@@ -493,10 +503,15 @@
 ### Fixed bugs
 Throughout testing, various bugs were discovered, especially with very low view-port sizes. They were all fixed, committed and documented via GitHub.
  - Bug with gallery preview image size
+ - **Fix :** Fixed using flex-box. 
  - Bug with horizontal phone/tablet orientation `gallery.html`
+ - **Fix :** Adjusted padding and margins of gallery elements.
  - Bug with gallery navigation bar
+ - **Fix :** Adjusted margins.
  - Bug with horizontal phone/tablet orientation `contact.html`
+ - **Fix :** Adjusted size of `half-box`.
  - Bug with `<input ... type="email">`field
+ - **Fix :** Changed type of input field to `<input ... type="email">` instead of `<input ... type="text">`.
 
 ### Unfixed bugs
 There are no know unfixed bugs as of 17.5.2023.
@@ -526,6 +541,13 @@ There are no know unfixed bugs as of 17.5.2023.
 - **Finding :** It takes approximately 2 minutes from `git push` command to live version being updated.
 
 [Back to Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#2table-of-content)
+
+## **7.3. Offline cloning**
+
+- **Task :** To use repository on local machine.
+- **Method :** 
+   - Navigate to GitHub and follow `Code -> HTTPS -> Copy button` . after those steps open your local coding enviroment and type `git clone [copied link]` .  
+- **Finding :** Git Windows application needs to be installed.
 
 ---
 
