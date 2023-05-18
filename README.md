@@ -33,7 +33,7 @@
  - [7. Deployment ](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#7-deployment)
     - [7.1. Transfer of progress from IDE](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#71-transfer-of-progress-from-ide)
     - [7.2. Deployment to GitHub Pages](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#72-deployement-to-github-pages)
-    - [7.3. Offline cloning]https://github.com/tomik-z-cech/PP1-Cibo-Fresco/edit/main/README.md#73-offline-cloning
+    - [7.3. Offline cloning](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/edit/main/README.md#73-offline-cloning)
 - [8. Technologies & Credits](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#8-technologies--credits)
   - [8.1. Technologies used to develop and deploy this project](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#81-technologies-used-to-develop-and-deploy-this-project)
   - [8.2. Credits](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#82-credits)
