@@ -434,7 +434,27 @@ There are no know unfixed bugs as of 17.5.2023.
 
 ---
 
-# **Technologies**
+# Deployment
+## Transfer of progress from IDE
+
+- **Task :** To ensure regular commitments are done to avoid any data/progress loss.
+- **Method :** 
+   - commands `git add [filename]` was used to add specific file to staging area, alternatively command `git add .` was used to add all changed files to staging area
+   - command `git commit -m "[commit description]"` was used to add commitments into queue
+   - command `git push` was used to push all commitments to remote repository on GitHub
+- **Finding :** CodeAnywhere IDE only holds upt to 3 commitments in queue, regular `git push` needed to be used.
+
+## Deployement to GitHub Pages
+
+- **Task :** To ensure users are able to view live version of **Cibo Fresco** project.
+- **Method :** 
+   - initial setting in `GitHub -> PP1-Cibo-Fresco -> Settings -> Pages` needed to be performed. It did enable developer to choose what branch to deploy. 
+   - all further deployements were done automatically after `git push`
+- **Finding :** It takes approximately 2 minutes from `git push` command to live version being updated.
+
+---
+
+# **Technologies & Credits**
 ## Technologies used to develop and deploy this project
 
 - **Balsamiq** - to create wireframes.
@@ -444,7 +464,12 @@ There are no know unfixed bugs as of 17.5.2023.
 - **GitBash** - to make commitments of progress and push the results back to GitHub
 - **ConText** - code off-line in "doodle-zone" mode
 - **GitHub** - to record all commitments and deployment the live project
+
+## Credits
 - **FontAwesome** - to find and use icons
 - **TinyPNG** - to compress images
 - **FavIcon.io** - to find and compress favicon
 - **StackEdit** - used to preview and write portions of `readme.MD` file
+- **PicJumbo** - images database
+- **code-boxx.com** - help with hamburger menu
+- **W3School** - useful infomration and cheatsheets
