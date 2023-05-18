@@ -1,4 +1,6 @@
-# **Cibo Fresco - Portfolio Project 1**
+# ***Cibo Fresco - Portfolio Project 1***
+---
+# **1.Key project information**
 
 - **Description :** This Portfolio Project 1 website called **Cibo Fresco** is an imaginary restaurant site offering only the best Italian food and drink. Cibo Fresco restaurant is presenting to is't visitors with Food and Drink menu, small picture gallery, contact details and function of making table reservation (Hoping to enable this function later, progressing the course).
 - **Key project goal :** To familiarise visitors of this page with **Cibo Fresco** restaurant, give them hint of the menus and ability to contact the restaurant and make a reservation.
@@ -6,12 +8,24 @@
 - **Live version :** Live version of **Cibo Fresco** page can be viewed [here](https://tomik-z-cech.github.io/PP1-Cibo-Fresco/) .
 
 ![Mockup](/docs/mockup.png)
----
-# **Site map**
-![Site Map](/docs/site-map.png)
+
 ---
 
-# **Features**
+# **2.Table of content**
+
+- [1.Key project information](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/edit/main/README.md#1key-project-information)
+- [2.Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/edit/main/README.md#2table-of-content)
+ 
+
+---
+
+# **3.Site map**
+
+![Site Map](/docs/site-map.png)
+
+---
+
+# **4.Features**
 
 ## **Features used in every HTML document**
 
