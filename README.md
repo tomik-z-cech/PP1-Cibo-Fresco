@@ -13,8 +13,8 @@
 
 # **2.Table of content**
 
-- [1.Key project information](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/edit/main/README.md#1key-project-information)
-- [2.Table of content](https://github.com/tomik-z-cech/PP1-Cibo-Fresco/edit/main/README.md#2table-of-content)
+- [1.Key project information](https://github.com/tomik-z-cech/PP1-Cibo-Fresco#1key-project-information)
+- [2.Table of content](#2table-of-content)
  
 
 ---
